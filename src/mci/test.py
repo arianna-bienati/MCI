@@ -84,4 +84,6 @@ df = pd.DataFrame({
     "N_exp": exp_nouns
 })
 
+target = Path("temp/")
+target.mkdir(parents=True, exist_ok=True)
 df.to_csv('target/out.csv', index=False)
