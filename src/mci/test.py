@@ -84,4 +84,4 @@ df = pd.DataFrame({
     "N_exp": exp_nouns
 })
 
-df.to_csv('out.csv', index=False)
+df.to_csv('target/out.csv', index=False)
