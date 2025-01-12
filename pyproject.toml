@@ -20,6 +20,9 @@ classifiers = [
   "Operating System :: OS Independent"
 ]
 dependencies = [
+    "textcomplexity>=0.11",
+    "argcomplete>=3.5",
+    "tqdm>=4"
 ]
 
 version = "0.0.1"
