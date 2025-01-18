@@ -2,7 +2,7 @@ from pathlib import Path
 import conllu
 import pandas as pd
 
-from eng_nouns_procedure import MorphologicalAnalyzer
+from eng_procedure import MorphologicalAnalyzer
 
 def extract_regular_exponent_v2(form, lemma):
     if form == lemma:
