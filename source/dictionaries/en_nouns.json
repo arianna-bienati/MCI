@@ -145,7 +145,7 @@
       "type": "Irregular_nouns",
       "conditions": {
         "wordForm": {
-          "pattern": "ies$",
+          "pattern": "^.*?ies$",
           "flags": "i"
         },
         "lemma": {
