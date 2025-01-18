@@ -32,27 +32,29 @@ for sentence in data:
     exp_nouns.append("")
     exp_verbs.append("")
     for token in sentence:
-        lemma = token.get("lemma")
-        lemmas.append(lemma)
-        form = token.get("form")
-        forms.append(form)
-        form = form.lower()
-        upos = token.get("upos") or ""
-        xpos = token.get("xpos") or ""
-        pos = '_'.join((upos, xpos))
-        poss.append(pos)
-        if token["upos"] in ["NOUN"]:
-            exp_noun = analyzer_nouns.extract_exponent(form, lemma, upos)
-            exp_nouns.append(exp_noun)
-        else:
-             exp = ""
-             exp_nouns.append(exp)
-        if token["upos"] in ["VERB", "AUX"]:
-            exp_verb = analyzer_verbs.extract_exponent(form, lemma, upos)
-            exp_verbs.append(exp_verb)
-        else:
-            exp = ""
-            exp_verbs.append(exp)
+        if isinstance(token.get('id'), int):
+            lemma = token.get("lemma")
+            lemmas.append(lemma)
+            lemma = lemma.lower()
+            form = token.get("form")
+            forms.append(form)
+            form = form.lower()
+            upos = token.get("upos") or ""
+            xpos = token.get("xpos") or ""
+            pos = '_'.join((upos, xpos))
+            poss.append(pos)
+            if token["upos"] in ["NOUN"]:
+                exp_noun = analyzer_nouns.extract_exponent(form, lemma, upos)
+                exp_nouns.append(exp_noun)
+            else:
+                exp = ""
+                exp_nouns.append(exp)
+            if token["upos"] in ["VERB", "AUX"]:
+                exp_verb = analyzer_verbs.extract_exponent(form, lemma, upos)
+                exp_verbs.append(exp_verb)
+            else:
+                exp = ""
+                exp_verbs.append(exp)
     forms.append("[S_END]")
     lemmas.append("")
     poss.append("")
