@@ -1,0 +1,164 @@
+{
+  "rules": [
+    {
+      "name": "Irregular_plural_oo_ee",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(feet|geese|teeth)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^(foot|goose|tooth)$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "_oo/ee_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Irregular_plural_man_men",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?men$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?man$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "_a/e_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Systematic_irregular_f_ves",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ves$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?(f|fe)$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "f/ves"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Systematic_irregular_us_i",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?i$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?us$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "us/i"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Systematic_irregular_is_es",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?es$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?is$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "is/es"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Systematic_irregular_on_a",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?a$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?(on|um)$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "a"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Systematic_irregular_ex/ix_ces",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ces$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?(ex|ix)$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": ""
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Systematic_irregular_ies",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "ies$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "s"
+      },
+      "priority": 2,
+      "enabled": true
+    }    
+  ]
+}

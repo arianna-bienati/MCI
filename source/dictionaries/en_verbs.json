@@ -1,0 +1,884 @@
+{
+  "rules": [
+    {
+      "name": "Past_part_been",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^been$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^be$",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "been"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Gerund_lying",
+      "type": "Irregular_gerund",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^lying$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "ing"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_y_id",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(said)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_y/id"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_y_ed",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(paid|laid)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "ed"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_l_t",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(dwelt|smelt)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "ed"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_d/t",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(bent|built|lent|rent|sent|spent)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_d/t"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_k_d",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^made$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_k/d_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_e/t",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(crept|felt|kept|knelt|slept|swept|wept)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_£e__t"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_e_t",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^lost$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_e/t"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_ell_old",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(sold|told)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ell/old"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_ea_oe",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(broke|stole|spoke)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ea/o___e"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_ea_o",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(wove|trod|hove)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ea/o_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_part_ea_oen",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(broken|stolen|spoken)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ea/o___en"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_ear_ore",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(bore|tore|wore|swore)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ear/ore"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_part_ea_on",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(woven|born|torn|worn|sworn)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ea/o__n"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_part_ea_one",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^borne$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ea/o__ne"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_£e",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(bit|hid|chid|slid)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_£e"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_part_e_ten",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(bitten|written)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_e/ten"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_part_e_den",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(chidden|hidden)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_e/den"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_e_o",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(forgot|got)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_e/o_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_part_e_ten",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^forgotten$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_e/o__ten"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_part_e_den",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^trodden$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_e/o__den"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_o_e",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(blew|grew|knew|threw|held)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_o/e_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_a_ooe",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(forsook|shook|took)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_a/oo__£e"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_a_ooe",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^forbade$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_i/a__e"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_i_a",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(gave|sat|spat|began|drank|rang|shrank|sang|sank|sprang|stank|swam)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_i/a_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_a_e",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(drew|fell)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_a/e_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_i_o",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(drove|rode|rose|smote|strode|strove|wrote|dove|shrove|throve|won|shone|abode)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_i/o_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_ee_e",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(bled|bred|fed|sped|met)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ee/e_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_ee_e",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(bled|bred|fed|sped|met)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ee/e_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_ea_e",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^led$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_ea/e_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_i_u",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(clung|dug|flung|slung|slunk|spun|stuck|stung|strung|swung|wrung|begun|drunk|rung|shrunk|sung|sunk|strung|stunk|swum)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_i/u_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_a_u",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^hung$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_a/u_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_i_ou",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(bound|found|ground|wound|fought)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_i/ou_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_oo_o",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^shot$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_oo/o_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_and_ood",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^stood$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_oo/o_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_o_a",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(came|became)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_o/a_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Past_tense_u_a",
+      "type": "Irregular_past",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^ran$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "_u/a_"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Verbs_double_cons_ed",
+      "type": "Orthographic_conventions_1",
+      "conditions": {
+        "wordForm": {
+          "pattern": "([a-z])\\1ed$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "ed"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Verbs_double_cons_ing",
+      "type": "Orthographic_conventions_1",
+      "conditions": {
+        "wordForm": {
+          "pattern": "([a-z])\\1ing$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "ing"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Verbs_e_ed",
+      "type": "Orthographic_conventions_2",
+      "conditions": {
+        "wordForm": {
+          "pattern": "ed$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "e$",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "ed"
+      },
+      "priority": 3,
+      "enabled": true
+    },
+    {
+      "name": "Verbs_y_ed",
+      "type": "Orthographic_conventions_2",
+      "conditions": {
+        "wordForm": {
+          "pattern": "ied$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "y$",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "ed"
+      },
+      "priority": 3,
+      "enabled": true
+    },
+    {
+      "name": "Verbs_e_ing",
+      "type": "Orthographic_conventions_2",
+      "conditions": {
+        "wordForm": {
+          "pattern": "ing$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "e$",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "ing"
+      },
+      "priority": 3,
+      "enabled": true
+    },
+    {
+      "name": "Verbs_y_s",
+      "type": "Orthographic_conventions_2",
+      "conditions": {
+        "wordForm": {
+          "pattern": "ies$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "y$",
+          "flags": "i"
+        },
+        "posTag": ["VERB", "AUX"]
+      },
+      "morphological_exponent": {
+        "template": "s"
+      },
+      "priority": 3,
+      "enabled": true
+    }
+  ]
+}
