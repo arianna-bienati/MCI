@@ -1,27 +1,8 @@
-# import json
 from pathlib import Path
-# import mci.process as process
 import conllu
 import pandas as pd
 
-def extract_regular_exponent_v1(form: str, lemma: str) -> str:
-    """Extract regular exponent by comparing form and lemma."""
-    # Check if form exactly matches lemma
-    if form == lemma:
-         return 'Ø'
-
-    # Find the longest common prefix
-    i = 0
-    min_len = min(len(form), len(lemma))
-    while i < min_len and form[i] == lemma[i]:
-         i += 1
-
-    # If we found a common prefix, the exponent is the remaining part of the form
-    if i > 0:
-         return form[i:]
-
-    # If no match found, return the whole form as exponent
-    return form
+from eng_nouns_procedure import MorphologicalAnalyzer
 
 def extract_regular_exponent_v2(form, lemma):
     if form == lemma:
@@ -31,7 +12,9 @@ def extract_regular_exponent_v2(form, lemma):
     else:
         return form.replace(lemma, "", 1) or "Ø"
 
-input_file = Path("/Users/ariannabienati/git/ICLE500/texts_conllu/001_BGSU1004.txt.conllu")
+input_file = Path("/Users/ariannabienati/git/MCI/MCI/source/001_BGSU1004.txt.conllu")
+analyzer_nouns = MorphologicalAnalyzer("/Users/ariannabienati/git/MCI/MCI/source/dictionaries/en_nouns.json")
+analyzer_verbs = MorphologicalAnalyzer("/Users/ariannabienati/git/MCI/MCI/source/dictionaries/en_verbs.json")
 
 with open(input_file, "r", encoding="utf-8") as f:
         data = conllu.parse(f.read())
@@ -59,13 +42,13 @@ for sentence in data:
         pos = '_'.join((upos, xpos))
         poss.append(pos)
         if token["upos"] in ["NOUN"]:
-            exp_noun = extract_regular_exponent_v2(form, lemma)
+            exp_noun = analyzer_nouns.extract_exponent(form, lemma, upos)
             exp_nouns.append(exp_noun)
         else:
              exp = ""
              exp_nouns.append(exp)
         if token["upos"] in ["VERB", "AUX"]:
-            exp_verb = extract_regular_exponent_v2(form, lemma)
+            exp_verb = analyzer_verbs.extract_exponent(form, lemma, upos)
             exp_verbs.append(exp_verb)
         else:
             exp = ""
@@ -84,6 +67,6 @@ df = pd.DataFrame({
     "N_exp": exp_nouns
 })
 
-target = Path("temp/")
+target = Path("target/")
 target.mkdir(parents=True, exist_ok=True)
 df.to_csv('target/out.csv', index=False)
