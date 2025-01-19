@@ -5,6 +5,12 @@ from pathlib import Path
 import mci.process as process
 
 # TODO: make a command line interface for extracting exponents
+# functionalities: 
+# a) runs stanza given the 'input_files' and 'language' parameter,
+# b) activates the MorphologicalAnalyzer with corresponding json files given the 'language' parameter,
+# c) analyzes conllu texts, 
+# d) returns csv or tsv files with form, lemma, pos, exponents, flags.
+
 def _exp(args):
     pass
 
