@@ -2,27 +2,18 @@ import argparse
 import argcomplete
 from pathlib import Path
 
-from tqdm.auto import tqdm
-
 import mci.process as process
 
-# def _exp(args):
-# 	# Create output dir if it doesn't exist
-#     output_dir = Path(args.output_dir)
-#     output_dir.mkdir(exist_ok=True)
-
-#     # Use tqdm for progress tracking if there are multiple files
-#     for input_file in tqdm(args.input_files, desc="Analysing files"):
-#         input_path = Path(input_file).resolve()
-#         output_file = output_dir / f"{input_path.stem}_{input_path.suffix}"
-#         process.annotate_pii(input_path, output_file)
-#         print(f"Annotated and saved to {output_file}")
+# TODO: make a command line interface for extracting exponents
+def _exp(args):
+    pass
 
 def _mci(args):
-    for input_file in tqdm(args.input_files, desc="Calculating MCI"):
+    print("filename\toverall_mci\tnoun_mci\tverb_mci")
+    for input_file in args.input_files:
         input_path = Path(input_file).resolve()
-        index_value = process.calculate_index(input_path, args.n_samples, args.size, args.seed) 
-        print(f'MCI of{input_path}: {index_value}') # to do it better.
+        overall_mci, noun_mci, verb_mci = process.calculate_index(input_path, args.n_samples, args.size, args.seed) 
+        print(f"{input_path.stem}\t{overall_mci:.4f}\t{noun_mci:.4f}\t{verb_mci:.4f}")
 
 def main():
     parser = argparse.ArgumentParser(
@@ -33,22 +24,28 @@ def main():
 
     subparsers = parser.add_subparsers(title="actions", dest="actions")
     
-    # parser_exp = subparsers.add_parser('exp',
-    #     description='Extract morphological exponents from conllu files',
-    #     help='Extract morphological exponents from conllu files')
+    parser_exp = subparsers.add_parser('exp',
+        description='Extract morphological exponents from conllu files',
+        help='Extract morphological exponents from conllu files')
     
-    # parser_exp.add_argument("-o", "--output_dir",
-    #     type=str,
-    #     default=".",
-    #     help="Output directory. Default: Current directory.")
+    parser_exp.add_argument("-o", "--output_dir",
+        type=str,
+        default=".",
+        help="Output directory. Default: Current directory.")
     
-    # parser_exp.add_argument("-i", "--input_files",
-    #     type=str,
-    #     nargs="+",
-    #     required=True,
-    #     help="Input text files.")
+    parser_exp.add_argument("-i", "--input_files",
+        type=str,
+        nargs="+",
+        required=True,
+        help="Input text files.")
+    
+    # TODO: relate json files to language
+    parser_exp.add_argument("-lang", "--language",
+        type=str,
+        required=True,
+        help="Input language of the texts")
 
-    # parser_exp.set_defaults(func=_exp)
+    parser_exp.set_defaults(func=_exp)
 
     parser_mci = subparsers.add_parser('mci',
           description='Compute MCI from csv files',
@@ -63,18 +60,15 @@ def main():
     parser_mci.add_argument("--n_samples",
          type=int,
          default=100,
-         required=True,
          help="Input a number of random samples")
     
     parser_mci.add_argument("--size",
          type=int,
          default=10,
-         required=True,
          help="Input the size of the exponent samples")
     
     parser_mci.add_argument("--seed",
          type=int,
-         default=42,
          required=False,
          help="Optional: make the run deterministic")
 
