@@ -1,36 +1,38 @@
 import random
-import re
-from typing import List
+import csv
+from typing import List, Tuple
 
-from textcomplexity.utils import conllu
-from textcomplexity.utils.text import Text
-from textcomplexity.utils.token import Token
+def read_csv(file_path: str) -> Tuple[List[str], List[str]]:
+    """
+    Reads a CSV file and extracts the columns 'N_exp' and 'V_exp' as lists of strings.
+    Empty strings are discarded.
 
-# functions to read conllu tokens
-def read_conllu_tokens(f, *, ignore_case=False):
-    for sentence, _ in conllu._read_conllu(f, ignore_case):
-        for token in get_tokens(sentence):
-            yield token
+    :param file_path: Path to the CSV file.
+    :return: Tuple containing two lists of strings (N_exp and V_exp).
+    """
+    n_exp, v_exp = [], []
+    with open(file_path, 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            if row['N_exp']:
+                n_exp.append(row['N_exp'])
+            if row['V_exp']:
+                v_exp.append(row['V_exp'])
+    return n_exp, v_exp
 
-def get_tokens(sentence):
-    # NOTE: this ignores range tokens and keeps splits multiword lemmas
-    simple_id = re.compile(r"^\d+$")
-    return [token for token in sentence if simple_id.search(token.id)]
+def random_samples(exponents: List[str], n_samples: int, size: int, seed: int = None) -> List[List[str]]:
+    """
+    Extracts random samples of exponents with a deterministic seed.
 
-# this function needs to be fixed
-def compute_exponent(form: str, lemma: str) -> str:
-    if form == lemma:
-        return "Ø"
-    else:
-        # Check for suffixes or differences at the end of the form
-        if form.startswith(lemma):
-            return form[len(lemma):] or "∅"
-        # Otherwise, identify the full difference
-        return form.replace(lemma, "", 1) or "∅"
-
-# Function to extract random samples of exponents
-def random_samples(exponents: List[str], x: int, y: int) -> List[List[str]]:
-    return [random.sample(exponents, y) for _ in range(x)]
+    :param exponents: List of exponents.
+    :param n_samples: Number of samples.
+    :param size: Size of each sample.
+    :param seed: Seed for random sampling.
+    :return: List of sampled exponents.
+    """
+    if seed is not None:
+        random.seed(seed)
+    return [random.sample(exponents, size) for _ in range(n_samples)]
 
 # Function to calculate the mean length of unique exponents in samples
 def mean_unique_lengths(samples: List[List[str]]) -> float:
@@ -47,3 +49,38 @@ def symmetric_difference(samples: List[List[str]]) -> float:
 
     num_comparisons = len(samples) * (len(samples) - 1)
     return total_difference / num_comparisons if num_comparisons > 0 else 0
+
+def calculate_index(file_path: str, n_samples: int, size: int, seed: int = None) -> float:
+    """
+    Calculates the final index based on the chained functions.
+
+    :param file_path: Path to the CSV file.
+    :param n_samples: Number of samples.
+    :param size: Size of each sample.
+    :param seed: Seed for random sampling.
+    :return: Computed index value.
+    """
+    # Step 1: Read the CSV file
+    n_exp, v_exp = read_csv(file_path)
+
+    # Step 2: Combine the two lists
+    exponents = n_exp + v_exp
+
+    # Step 3: Generate random samples
+    n_exp_samples = random_samples(n_exp, n_samples, size, seed)
+    v_exp_samples = random_samples(v_exp, n_samples, size, seed)
+    samples = random_samples(exponents, n_samples, size, seed)
+
+    # Step 4: Calculate mean unique lengths and symmetric difference
+    n_exp_mean_len = mean_unique_lengths(n_exp_samples)
+    v_exp_mean_len = mean_unique_lengths(v_exp_samples)
+    mean_len = mean_unique_lengths(samples)
+    n_exp_sym_diff = symmetric_difference(n_exp_samples)
+    v_exp_sym_diff = symmetric_difference(v_exp_samples)
+    sym_diff = symmetric_difference(samples)
+
+    # Step 5: Compute the final index
+    n_exp_index = ((n_exp_mean_len + n_exp_sym_diff) / 2) - 1
+    v_exp_index = ((v_exp_mean_len + v_exp_sym_diff) / 2) - 1
+    index = ((mean_len + sym_diff )/ 2) - 1
+    return index, n_exp_index, v_exp_index
