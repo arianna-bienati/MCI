@@ -34,13 +34,23 @@ def random_samples(exponents: List[str], n_samples: int, size: int, seed: int = 
         random.seed(seed)
     return [random.sample(exponents, size) for _ in range(n_samples)]
 
-# Function to calculate the mean length of unique exponents in samples
 def mean_unique_lengths(samples: List[List[str]]) -> float:
+    """
+    Calculates the mean length of unique exponents in samples.
+
+    :param samples: List of samples.
+    :return: Mean length of unique exponents.
+    """
     unique_lengths = [len(set(sample)) for sample in samples]
     return sum(unique_lengths) / len(unique_lengths)
 
-# Function to compute symmetric difference across samples
 def symmetric_difference(samples: List[List[str]]) -> float:
+    """
+    Computes the symmetric difference across samples.
+
+    :param samples: List of samples.
+    :return: Average symmetric difference.
+    """
     total_difference = 0
     for i, sample_i in enumerate(samples):
         for j, sample_j in enumerate(samples):
@@ -80,7 +90,7 @@ def calculate_index(file_path: str, n_samples: int, size: int, seed: int = None)
     sym_diff = symmetric_difference(samples)
 
     # Step 5: Compute the final index
-    n_exp_index = ((n_exp_mean_len + n_exp_sym_diff) / 2) - 1
-    v_exp_index = ((v_exp_mean_len + v_exp_sym_diff) / 2) - 1
-    index = ((mean_len + sym_diff )/ 2) - 1
+    n_exp_index = (n_exp_mean_len + (n_exp_sym_diff / 2)) - 1
+    v_exp_index = (v_exp_mean_len + (v_exp_sym_diff / 2)) - 1
+    index = (mean_len + (sym_diff / 2)) - 1
     return index, n_exp_index, v_exp_index
