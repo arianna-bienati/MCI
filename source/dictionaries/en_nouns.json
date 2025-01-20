@@ -101,6 +101,46 @@
       "enabled": true
     },
     {
+      "name": "Systematic_irregular_o_es",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?es$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?o$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "s"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Systematic_irregular_s_es",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?es$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?(s|z|x|sh|ch)$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "es"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
       "name": "Systematic_irregular_us_i",
       "type": "Irregular_nouns",
       "conditions": {
