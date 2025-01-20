@@ -41,6 +41,46 @@
       "enabled": true
     },
     {
+      "name": "Irregular_plural_child_children",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^children$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^child$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "children"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Irregular_plural_ox_oxen",
+      "type": "Irregular_nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^oxen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": ["NOUN"]
+      },
+      "morphological_exponent": {
+        "template": "oxen"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
       "name": "Systematic_irregular_f_ves",
       "type": "Irregular_nouns",
       "conditions": {

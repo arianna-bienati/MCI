@@ -765,7 +765,7 @@
       "type": "Orthographic_conventions_1",
       "conditions": {
         "wordForm": {
-          "pattern": "([a-z])\\1ed$",
+          "pattern": "^.*?([^aeiou]){2}ed$",
           "flags": "i"
         },
         "lemma": {
@@ -785,7 +785,7 @@
       "type": "Orthographic_conventions_1",
       "conditions": {
         "wordForm": {
-          "pattern": "([a-z])\\1ing$",
+          "pattern": "^.*?([^aeiou]){2}ing$",
           "flags": "i"
         },
         "lemma": {
