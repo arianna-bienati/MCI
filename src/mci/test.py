@@ -1,3 +1,4 @@
+import sys
 from pathlib import Path
 import conllu
 import pandas as pd
@@ -41,7 +42,7 @@ def process_sentence(sentence, analyzers):
     return forms, lemmas, poss, exp_nouns, exp_verbs, checks
 
 def main():
-    input_file = Path("source/001_BGSU1004.txt.conllu")
+    input_file = sys.argv[1]
     target_dir = Path("target/")
     target_dir.mkdir(parents=True, exist_ok=True)
 
