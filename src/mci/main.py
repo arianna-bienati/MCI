@@ -8,7 +8,7 @@ import mci.process as process
 import mci.run_stanza as run_stanza
 from mci.procedure import MorphologicalAnalyzer
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 LANGUAGE_TO_JSON = {
     "en": {
