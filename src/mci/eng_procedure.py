@@ -5,19 +5,21 @@ class MorphologicalAnalyzer:
     def __init__(self, json_file_path):
         # Load rules from the JSON file
         with open(json_file_path, "r", encoding="utf-8") as f:
-            self.rules = json.load(f)["rules"]
+            data = json.load(f)
+            self.rules = data["rules"]
+        if "placeholder" in json_file_path:
+            print(f"Warning: Using placeholder file {json_file_path}. Data may be incomplete.")
+        
+        self.sorted_rules = sorted(
+            [rule for rule in self.rules if rule["enabled"]],
+            key=lambda rule: rule["priority"]
+        )
 
     def extract_irregular_exponent(self, form, lemma, pos):
         """
         Tries to extract the morphological exponent using irregular rules.
         """
-        # Sort rules by priority
-        sorted_rules = sorted(
-            [rule for rule in self.rules if rule["enabled"]],
-            key=lambda rule: rule["priority"]
-        )
-
-        for rule in sorted_rules:
+        for rule in self.sorted_rules:
             # Check conditions: wordForm, lemma, and posTag
             conditions = rule["conditions"]
             word_form_match = re.match(

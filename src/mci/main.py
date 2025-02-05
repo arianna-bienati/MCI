@@ -2,17 +2,78 @@ import argparse
 import argcomplete
 from pathlib import Path
 
+import pandas as pd
+
 import mci.process as process
+import mci.run_stanza_cli as run_stanza
+import mci.test as test
+from mci.eng_procedure import MorphologicalAnalyzer
 
 # TODO: make a command line interface for extracting exponents
 # functionalities: 
-# a) runs stanza given the 'input_files' and 'language' parameter,
 # b) activates the MorphologicalAnalyzer with corresponding json files given the 'language' parameter,
 # c) analyzes conllu texts, 
 # d) returns csv or tsv files with form, lemma, pos, exponents, flags.
 
+LANGUAGE_TO_JSON = {
+    "en": {
+        "nouns": "source/dictionaries/en_nouns.json",
+        "verbs": "source/dictionaries/en_verbs.json",
+        "adjs": "source/dictionaries/placeholder_adjs.json",
+    },
+    "it": {
+        "nouns": "source/dictionaries/placeholder_nouns.json",
+        "verbs": "source/dictionaries/placeholder_verbs.json",
+        "adjectives": "source/dictionaries/placeholder_adjs.json",
+    },
+    "de": {
+        "nouns": "source/dictionaries/placeholder_nouns.json",
+        "verbs": "source/dictionaries/placeholder_verbs.json",
+        "adjectives": "source/dictionaries/placeholder_adjs.json",
+    },
+    "fr": {
+        "nouns": "source/dictionaries/placeholder_nouns.json",
+        "verbs": "source/dictionaries/placeholder_verbs.json",
+        "adjectives": "source/dictionaries/placeholder_adjs.json",
+    },
+    "es": {
+        "nouns": "source/dictionaries/placeholder_nouns.json",
+        "verbs": "source/dictionaries/placeholder_verbs.json",
+        "adjectives": "source/dictionaries/placeholder_adjs.json",
+    },
+}
+
 def _exp(args):
-    pass
+    for input_file in args.input_files:
+        input_path = Path(input_file).resolve()
+        output_path = Path(args.output_dir).resolve() / f"{input_path.stem}_exponents.tsv"
+        
+        # Run stanza to process the input file
+        with open(input_path, "r", encoding="utf-8") as fh:
+            text = fh.read()
+            stanza_output = run_stanza.run_stanza(text, args.language)
+        
+        lang_files = LANGUAGE_TO_JSON[args.language]
+
+        analyzer_nouns = MorphologicalAnalyzer(lang_files["nouns"])
+        analyzer_verbs = MorphologicalAnalyzer(lang_files["verbs"])
+
+        forms, lemmas, poss, exp_nouns, exp_verbs, checks = [], [], [], [], [], []
+
+        for sentence in stanza_output:
+            sentence_data = test.process_sentence(sentence, (analyzer_nouns, analyzer_verbs))
+            for col, sentence_col in zip([forms, lemmas, poss, exp_nouns, exp_verbs, checks], sentence_data):
+                col.extend(sentence_col)
+
+        df = pd.DataFrame({
+            "form": forms,
+            "lemma": lemmas,
+            "pos": poss,
+            "V_exp": exp_verbs,
+            "N_exp": exp_nouns,
+            "check": checks
+        })
+        df.to_csv(output_path, index=False)
 
 def _mci(args):
     print("filename\toverall_mci\tnoun_mci\tverb_mci")
@@ -46,10 +107,11 @@ def main():
         help="Input text files.")
     
     # TODO: relate json files to language
-    parser_exp.add_argument("-lang", "--language",
+    parser_exp.add_argument("-l", "--language",
+        choices=["en", "de", "it", "fr", "es"],
         type=str,
         required=True,
-        help="Input language of the texts")
+        help="Input language. Supported languages: en, de, it, fr, es")
 
     parser_exp.set_defaults(func=_exp)
 
