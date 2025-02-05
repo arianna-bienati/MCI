@@ -53,6 +53,7 @@ cover/
 source/test*
 README_files/
 README.html
+legacy/
 
 # Translations
 *.mo

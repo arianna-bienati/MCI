@@ -2,6 +2,43 @@ import random
 import csv
 from typing import List, Tuple
 
+def process_sentence(sentence, analyzers):
+    """Process a single sentence and extract required data."""
+    forms, lemmas, poss, exp_nouns, exp_verbs, checks = ["[S_START]"], [""], [""], [""], [""], [""]
+    analyzer_nouns, analyzer_verbs = analyzers
+
+    for token in sentence:
+        if isinstance(token.get('id'), int):
+            lemma = token.get("lemma", "").lower()
+            form = token.get("text", "").lower()
+            upos = token.get("upos", "")
+            xpos = token.get("xpos", "")
+            pos = '_'.join(filter(None, [upos, xpos]))
+
+            forms.append(token.get("text", ""))
+            lemmas.append(token.get("lemma", ""))
+            poss.append(pos)
+
+            deprel = token.get("deprel", "")
+            deps = [dep.get("text", "").lower() for dep in sentence if dep.get("head") == token.get("id")]
+            
+            # Check conditions for verbs
+            check = "*" if (upos == "VERB" and (deprel == "amod" or any(dep == "det" for dep in deps))) else ""
+            checks.append(check)
+
+            exp_nouns.append(analyzer_nouns.extract_exponent(form, lemma, upos) if upos == "NOUN" else "")
+            exp_verbs.append(analyzer_verbs.extract_exponent(form, lemma, upos) if (upos in ["VERB", "AUX"] and check == "") else "")
+
+    # Add sentence end markers
+    forms.append("[S_END]")
+    lemmas.append("")
+    poss.append("")
+    exp_nouns.append("")
+    exp_verbs.append("")
+    checks.append("")
+
+    return forms, lemmas, poss, exp_nouns, exp_verbs, checks
+
 def read_csv(file_path: str) -> Tuple[List[str], List[str]]:
     """
     Reads a CSV file and extracts the columns 'N_exp' and 'V_exp' as lists of strings.

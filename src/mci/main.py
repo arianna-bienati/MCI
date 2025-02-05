@@ -5,15 +5,8 @@ from pathlib import Path
 import pandas as pd
 
 import mci.process as process
-import mci.run_stanza_cli as run_stanza
-import mci.test as test
-from mci.eng_procedure import MorphologicalAnalyzer
-
-# TODO: make a command line interface for extracting exponents
-# functionalities: 
-# b) activates the MorphologicalAnalyzer with corresponding json files given the 'language' parameter,
-# c) analyzes conllu texts, 
-# d) returns csv or tsv files with form, lemma, pos, exponents, flags.
+import mci.run_stanza as run_stanza
+from mci.procedure import MorphologicalAnalyzer
 
 LANGUAGE_TO_JSON = {
     "en": {
@@ -61,7 +54,7 @@ def _exp(args):
         forms, lemmas, poss, exp_nouns, exp_verbs, checks = [], [], [], [], [], []
 
         for sentence in stanza_output:
-            sentence_data = test.process_sentence(sentence, (analyzer_nouns, analyzer_verbs))
+            sentence_data = process.process_sentence(sentence, (analyzer_nouns, analyzer_verbs))
             for col, sentence_col in zip([forms, lemmas, poss, exp_nouns, exp_verbs, checks], sentence_data):
                 col.extend(sentence_col)
 
