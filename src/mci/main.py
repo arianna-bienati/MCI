@@ -8,31 +8,33 @@ import mci.process as process
 import mci.run_stanza as run_stanza
 from mci.procedure import MorphologicalAnalyzer
 
+BASE_DIR = Path(__file__).resolve().parent
+
 LANGUAGE_TO_JSON = {
     "en": {
-        "nouns": "source/dictionaries/en_nouns.json",
-        "verbs": "source/dictionaries/en_verbs.json",
-        "adjs": "source/dictionaries/placeholder_adjs.json",
+        "nouns": str(BASE_DIR / "source/dictionaries/en_nouns.json"),
+        "verbs": str(BASE_DIR / "source/dictionaries/en_verbs.json"),
+        "adjs": str(BASE_DIR / "source/dictionaries/placeholder.json")
     },
     "it": {
-        "nouns": "source/dictionaries/placeholder_nouns.json",
-        "verbs": "source/dictionaries/placeholder_verbs.json",
-        "adjectives": "source/dictionaries/placeholder_adjs.json",
+        "nouns": str(BASE_DIR / "source/dictionaries/placeholder.json"),
+        "verbs": str(BASE_DIR / "source/dictionaries/placeholder.json"),
+        "adjectives": str(BASE_DIR / "source/dictionaries/placeholder.json")
     },
     "de": {
-        "nouns": "source/dictionaries/placeholder_nouns.json",
-        "verbs": "source/dictionaries/placeholder_verbs.json",
-        "adjectives": "source/dictionaries/placeholder_adjs.json",
+        "nouns": str(BASE_DIR / "source/dictionaries/placeholder.json"),
+        "verbs": str(BASE_DIR / "source/dictionaries/placeholder.json"),
+        "adjectives": str(BASE_DIR / "source/dictionaries/placeholder.json")
     },
     "fr": {
-        "nouns": "source/dictionaries/placeholder_nouns.json",
-        "verbs": "source/dictionaries/placeholder_verbs.json",
-        "adjectives": "source/dictionaries/placeholder_adjs.json",
+        "nouns": str(BASE_DIR / "source/dictionaries/placeholder.json"),
+        "verbs": str(BASE_DIR / "source/dictionaries/placeholder.json"),
+        "adjectives": str(BASE_DIR / "source/dictionaries/placeholder.json")
     },
     "es": {
-        "nouns": "source/dictionaries/placeholder_nouns.json",
-        "verbs": "source/dictionaries/placeholder_verbs.json",
-        "adjectives": "source/dictionaries/placeholder_adjs.json",
+        "nouns": str(BASE_DIR / "source/dictionaries/placeholder.json"),
+        "verbs": str(BASE_DIR / "source/dictionaries/placeholder.json"),
+        "adjectives": str(BASE_DIR / "source/dictionaries/placeholder.json")
     },
 }
 
@@ -122,12 +124,12 @@ def main():
     parser_mci.add_argument("--n_samples",
          type=int,
          default=100,
-         help="Input a number of random samples")
+         help="Input a number of random samples. Default is 100.")
     
     parser_mci.add_argument("--size",
          type=int,
          default=10,
-         help="Input the size of the exponent samples")
+         help="Input the size of the exponent samples. Default is 10.")
     
     parser_mci.add_argument("--seed",
          type=int,
