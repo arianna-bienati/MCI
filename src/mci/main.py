@@ -39,7 +39,9 @@ LANGUAGE_TO_JSON = {
 def _exp(args):
     for input_file in args.input_files:
         input_path = Path(input_file).resolve()
-        output_path = Path(args.output_dir).resolve() / f"{input_path.stem}_exponents.csv"
+        target_dir = Path(args.output_dir).resolve()
+        target_dir.mkdir(parents=True, exist_ok=True)
+        output_path = target_dir / f"{input_path.stem}_exponents.csv"
         
         # Run stanza to process the input file
         with open(input_path, "r", encoding="utf-8") as fh:
