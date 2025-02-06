@@ -97,3 +97,63 @@ Bley-Vroman, R. (1983). The Comparative Fallacy in Interlanguage Studies: The Ca
 Pallotti, G. (2015). A simple view of linguistic complexity. _Second Language Research_, _31_, 117–134. [https://doi.org/10.1177/0267658314536435](https://doi.org/10.1177/0267658314536435)
 
 Qi, P., Zhang, Y., Zhang, Y., Bolton, J., & Manning, C. D. (2020). Stanza: A Python Natural Language Processing Toolkit for Many Human Languages. In A. Celikyilmaz & T.-H. Wen (Eds.), _Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations_ (pp. 101–108). Association for Computational Linguistics. [https://doi.org/10.18653/v1/2020.acl-demos.14](https://doi.org/10.18653/v1/2020.acl-demos.14)
+
+## Installation
+Clone this repository:
+```bash
+git clone https://github.com/arianna-bienati/MCI.git
+cd MCI
+```
+Create a virtual environment and activate it
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+Install package in development mode
+```bash
+pip install -e .
+```
+## Usage
+
+1. Extract morphological exponents\
+Use the `exp` command to extract exponent given the procedure and conventions explained above:
+
+```bash
+mci exp -o target -i source/001_BGSU1004.txt -l en
+```
+Arguments:
+* `-i`: Paths to input text files (can process multiple files). 
+* `-o`: Directory to save annotated files (creates a new one if it doesn't already exist). Default is current directory.
+* `-l`: Language of the text. For now only 'en' is supported, but other languages (it, de, fr, es) are coming soon.
+
+> [!TIP]
+> Manually check the output of this first step!
+
+2. Calculate MCI\
+Use the `mci` command to calculate the Morphological Complexity Index for verbs, nouns and overall (verbs+nouns):
+
+```bash
+mci mci -i target/001_BGSU1004_exponents.csv --seed 10
+```
+Arguments:
+* `-i`: Path to the annotated csv files (can process multiple files).
+* `--n_samples`: Number of times a random sample needs to be drawn from the exponents. Default is 100.
+* `--size`: Number of exponents to be sampled. Default is 10.
+* `--seed`: (optional) a seed to make the run deterministic.
+
+>[!TIP]
+> The output is printed to the terminal. It can be saved by piping the command to a .tsv file. Results of multiple files are printed sequentally along their filename.
+
+```bash
+mci mci -i target/001_BGSU1004_exponents.csv --seed 10 > target/results.tsv
+```
+
+## Contributing
+Fork this repository.\
+Create a feature branch: `git checkout -b feature-name`.\
+Commit your changes: `git commit -m "Add feature-name"`.\
+Push to your branch: `git push origin feature-name`.\
+Open a pull request.
+
+## License
+This project is licensed under the GPL-3.0 LICENSE. See LICENSE for details.
