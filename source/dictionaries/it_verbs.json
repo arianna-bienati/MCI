@@ -373,6 +373,30 @@
       "type": "",
       "conditions": {
         "wordForm": {
+          "pattern": "^.*?(sci|ci|gi|gli)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?(sciare|ciare|giare|gliere)$",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ],
+        "feats": "Mood=Ind|Mood=Sub|Tense=Pres"
+      },
+      "morphological_exponent": {
+        "template": "i"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
           "pattern": "^.*?essere$",
           "flags": "i"
         },

@@ -14,6 +14,7 @@ def process_sentence(sentence, analyzers):
             upos = token.get("upos", "")
             xpos = token.get("xpos", "")
             pos = '_'.join(filter(None, [upos, xpos]))
+            feat = token.get("feats", "_")
 
             forms.append(token.get("text", ""))
             lemmas.append(token.get("lemma", ""))
@@ -26,8 +27,8 @@ def process_sentence(sentence, analyzers):
             check = "*" if (upos == "VERB" and (deprel == "amod" or any(dep == "det" for dep in deps))) else ""
             checks.append(check)
 
-            exp_nouns.append(analyzer_nouns.extract_exponent(form, lemma, upos) if upos == "NOUN" else "")
-            exp_verbs.append(analyzer_verbs.extract_exponent(form, lemma, upos) if (upos in ["VERB", "AUX"] and check == "") else "")
+            exp_nouns.append(analyzer_nouns.extract_exponent(form, lemma, upos, feat) if upos == "NOUN" else "")
+            exp_verbs.append(analyzer_verbs.extract_exponent(form, lemma, upos, feat) if (upos in ["VERB", "AUX"] and check == "") else "")
 
     # Add sentence end markers
     forms.append("[S_END]")
