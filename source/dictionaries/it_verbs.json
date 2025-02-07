@@ -1,0 +1,9917 @@
+{
+  "rules": [
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^essere$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "essere"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^posso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "posso"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^possa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "possa"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^stato$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "stato"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^ebbi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ebbi"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^ebbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ebbe"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^ebbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ebbero"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^diressi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "essi"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^diresse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "esse"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^diressero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "essero"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^eressi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "essi"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^eresse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "esse"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^eressero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "essero"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^fosse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "fosse"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^fossero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "fossero"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^fossi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "fossi"
+      },
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?essere$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "essere"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?visto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ed/isto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vista$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ed/ista"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?viste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ed/iste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?visti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ed/isti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?pressi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "im/essi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?presse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "im/esse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?pressero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "im/essero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?presso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "im/esso"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?pressa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "im/essa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?misi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ett/isi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?mise$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ett/ise"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?misero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ett/isero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?messo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ett/esso"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?messa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ett/essa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?messi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ett/essi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?messe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ett/esse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fusi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/usi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fuse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/use"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fusero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/usero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fuso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/uso"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fusa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/usa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?perto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/erto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?perta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/erta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?perti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/erti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?perte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/erte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diretto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/etto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diretta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/etta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diretti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/etti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?dirette$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/ette"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diressi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/essi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diresse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/esse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diressero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/essero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?eressi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/essi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?eresse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/esse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?eressero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/essero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?eretto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/etto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?eretta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/etta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?eretti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/etti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?erette$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/ette"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?redatto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/atto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?redatta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/atta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?redatti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/atti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?redatte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ig/atte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?morsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?morse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?morsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?morso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?morsa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?corsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?corse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?corsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?corso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?corsa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?torsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?torse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?torsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?torto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/to"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?torta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/ta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?persi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?perse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?persero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?perso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?persa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stinsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gu/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stinse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gu/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stinsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gu/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stinto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gu/to"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stinta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gu/ta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stinti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gu/ti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stinte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gu/te"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vinsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vinse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vinsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vinto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/to"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vinta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/ta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vinti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/ti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vinte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/te"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?sunsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "m/nsi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?sunse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "m/nse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?sunsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "m/nsero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?sunto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "m/nto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?sunta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "m/nta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?sunti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "m/nti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?sunte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "m/nte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spensi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gn/nsi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spense$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gn/nse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spensero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gn/nsero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spento$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gn/nto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spenta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gn/nta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spenti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gn/nti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spente$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gn/nte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spansi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spanse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spansero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spanso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?spansa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?risposi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rispose$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?risposero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?risposto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?risposta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?risposti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?risposte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/ste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nascosi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nascose$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nascosero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nascosto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nascosta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nascosti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nascoste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/ste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?chiesi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?chiese$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?chiesero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?chiesto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?chiesta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?chieste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?chiesti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/ste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?masi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?mase$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?masero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?masto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/sto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?masta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/sta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?masti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/sti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?maste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/ste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nacqui$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/cqui"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nacque$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/cque"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nacquero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/cquero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nato$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/to"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nata$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/ta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nati$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/ti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nate$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/te"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fatto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/tto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fatta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/tta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fatti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/tti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fatte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/tte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?direi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rei"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diresti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/resti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?direbbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rebbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diremmo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/remmo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?direste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/reste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?direbbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rebbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?dite$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "dite"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?dire$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "dire"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?disse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "disse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?dissi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "dissi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?dir$ò",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "dirò"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?dirai$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "dirai"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?dir$à",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "dirà"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diremo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "diremo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?direte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "direte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?diranno$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "diranno"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?iene$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_i_e"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ieni$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_i_i"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?iede$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_i_e"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?iedi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_i_i"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?iedo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_i_o"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?iedono$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_i_ono"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ieda$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_i_a"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?iedano$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_i_ano"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?uole$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_e"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?uori$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_i"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?uore$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_e"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?asi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ase$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?asero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?aso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?asa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vide$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_e/i_e"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vidi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_e/i_i"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?videro$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_e/i_ero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?esi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ese$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?esero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?eso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?esa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "nd/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lusi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?luse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lusero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?uso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?usa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?hiusi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?hiuse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?hiusero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?hiuso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?hiusa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fusi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/usi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fuse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/use"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fusero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/usero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fuso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/uso"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?fusa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ond/usi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lissi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/ssi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lisse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/sse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lissero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/ssero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?litto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?litta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?litti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?litte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rissi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ssi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?risse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/sse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rissero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ssero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ritto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/tto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ritta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/tta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ritti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/tti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ritte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/tte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vissi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ssi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?visse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/sse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vissero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ssero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ssuto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ssuto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ssuta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ssuta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ssuti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ssuti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ssute$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ssute"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?solsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?solse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?solsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?solto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/to"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?solta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?solte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/te"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?solti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/ti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tolsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lsi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tolse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tolsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lsero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tolto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tolta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tolte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tolti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cessi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/ssi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cesse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cessero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/ssero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cesso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sso"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cessa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/ssa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tessi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/ssi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tesse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/sse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tessero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/ssero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tetto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tetta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tetti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?tette$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nessi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "tt/ssi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nesse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "tt/sse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nessero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "tt/ssero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nesso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "tt/sso"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nessa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "tt/ssa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cussi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "t/ssi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cusse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "t/sse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cussero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "t/ssero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cusso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "t/sso"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?cussa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "t/ssa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?trussi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/ssi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?trusse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/sse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?trussero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/ssero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?trutto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?trutta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?trutti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?trutte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gg/tte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?obbi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/bbi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?obbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/bbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?obbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/bbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rsa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/to"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/ta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/te"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/ti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?crebbi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/bbi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?crebbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/bbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?crebbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "sc/bbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?isi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ise$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?isero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?iso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?isa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nsi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nsero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/to"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/ta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/ti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?nte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "g/te"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stretto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ing/etto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stretti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ing/etti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?stretta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ing/etta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?strette$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "ing/ette"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?osi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ose$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?osero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?oso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/so"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?osa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "d/sa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?scossi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uot/ossi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?scosse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uot/osse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?scossero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uot/ossero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?scosso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uot/osso"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?scossa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uot/ossa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?mossi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uov/ossi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?mosse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uov/osse"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?mossero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uov/ossero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?mosso$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uov/osso"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?mossa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "uov/ossa"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ruppi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "omp/uppi"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ruppe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "omp/uppe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ruppero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "omp/uppero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rotto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "omp/otto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rotta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "omp/otta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rotte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "omp/otte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rotti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "omp/otti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lgo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lgo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lgono$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lgono"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "gli/lte"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?paio$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/io"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?paiono$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/iono"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?paia$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/ia"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?paiano$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "r/iano"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?esco$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u/e_o"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?esci$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u/e_i"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?esce$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u/e_e"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?escono$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u/e_ono"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?esca$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u/e_a"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verr$ò",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrò"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verrai$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrai"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verr$à",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrà"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verremo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rremo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verrete$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrete"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verranno$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rranno"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verrei$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrei"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verresti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rresti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verrebbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrebbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verremmo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rremmo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verreste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rreste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?verrebbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrebbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porr$ò",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrò"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porrai$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrai"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porr$à",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrà"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porremo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rremo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porrete$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrete"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porranno$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rranno"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porrei$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrei"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porresti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rresti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porrebbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrebbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porremmo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rremmo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porreste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rreste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?porrebbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrebbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terr$ò",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrò"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terrai$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrai"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terr$à",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrà"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terremo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rremo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terrete$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrete"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terranno$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rranno"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terrei$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrei"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terresti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rresti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terrebbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrebbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terremmo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rremmo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terreste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rreste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?terrebbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrebbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marr$ò",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrò"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marrai$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrai"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marr$à",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrà"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marremo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rremo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marrete$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrete"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marranno$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rranno"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marrei$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrei"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marresti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rresti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marrebbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrebbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marremmo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rremmo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marreste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rreste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?marrebbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/rrebbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durr$ò",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rrò"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durrai$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rrai"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durr$à",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rrà"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durremo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rremo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durrete$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rrete"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durranno$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rranno"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durrei$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rrei"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durresti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rresti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durrebbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rrebbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durremmo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rremmo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durreste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rreste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durrebbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rrebbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?durre$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "c/rre"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varr$ò",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rrò"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varrai$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rrai"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varr$à",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rrà"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varremo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rremo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varrete$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rrete"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varranno$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rranno"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varrei$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rrei"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varresti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rresti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varrebbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rrebbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varremmo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rremmo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varreste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rreste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?varrebbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "l/rrebbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berr$ò",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rrò"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berrai$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rrai"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berr$à",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rrà"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berremo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rremo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berrete$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rrete"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berranno$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rranno"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berrei$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rrei"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berresti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rresti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berrebbe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rrebbe"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berremmo$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rremmo"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berreste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rreste"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?berrebbero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "v/rrebbero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?posi$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/si"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?pose$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/se"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?posero$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/sero"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?posto$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/sto"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?posta$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/sta"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?posti$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/sti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?poste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/ste"
+      },
+      "priority": 2,
+      "enabled": true
+    }
+  ]
+}
