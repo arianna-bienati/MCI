@@ -6,7 +6,7 @@ import pandas as pd
 
 import mci.process as process
 import mci.run_stanza as run_stanza
-from mci.procedure import MorphologicalAnalyzer
+from mci.procedure import MorphologicalAnalyzer, LemmaNormalizer
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
@@ -52,13 +52,15 @@ def _exp(args):
         
         lang_files = LANGUAGE_TO_JSON[args.language]
 
+        normalizer = LemmaNormalizer(BASE_DIR / "source/dictionaries/norm_lemma.json")
+
         analyzer_nouns = MorphologicalAnalyzer(lang_files["nouns"])
         analyzer_verbs = MorphologicalAnalyzer(lang_files["verbs"])
 
         forms, lemmas, poss, exp_nouns, exp_verbs, checks = [], [], [], [], [], []
 
         for sentence in stanza_output:
-            sentence_data = process.process_sentence(sentence, (analyzer_nouns, analyzer_verbs))
+            sentence_data = process.process_sentence(sentence, (analyzer_nouns, analyzer_verbs), args.language, normalizer)
             for col, sentence_col in zip([forms, lemmas, poss, exp_nouns, exp_verbs, checks], sentence_data):
                 col.extend(sentence_col)
 

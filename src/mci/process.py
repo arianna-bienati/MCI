@@ -2,7 +2,7 @@ import random
 import csv
 from typing import List, Tuple
 
-def process_sentence(sentence, analyzers):
+def process_sentence(sentence, analyzers, language, normalizer):
     """Process a single sentence and extract required data."""
     forms, lemmas, poss, exp_nouns, exp_verbs, checks = ["[S_START]"], [""], [""], [""], [""], [""]
     analyzer_nouns, analyzer_verbs = analyzers
@@ -15,6 +15,8 @@ def process_sentence(sentence, analyzers):
             xpos = token.get("xpos", "")
             pos = '_'.join(filter(None, [upos, xpos]))
             feat = token.get("feats", "_")
+
+            lemma = normalizer.normalize_lemma(lemma, language)
 
             forms.append(token.get("text", ""))
             lemmas.append(token.get("lemma", ""))

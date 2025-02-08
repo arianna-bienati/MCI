@@ -1,6 +1,27 @@
 import json
 import re
 
+class LemmaNormalizer:
+    def __init__(self, json_file_path):
+        with open(json_file_path, 'r', encoding="utf-8") as f:
+            self.normalization_rules = json.load(f)
+    
+    def normalize_lemma(self, lemma, language):
+        """
+        Normalize the lemma based on language-specific rules.
+        """
+        if language not in self.normalization_rules:
+            return lemma  # No normalization rules for this language
+
+        for rule in self.normalization_rules[language]:
+            pattern = rule["pattern"]
+            replacement = rule["replacement"]
+            # Replace {1} with \1 for capturing groups
+            replacement = replacement.replace("{1}", r"\1")
+            lemma = re.sub(pattern, replacement, lemma)
+
+        return lemma
+
 class MorphologicalAnalyzer:
     def __init__(self, json_file_path):
         # Load rules from the JSON file

@@ -1,0 +1,28 @@
+{
+    "it": [
+        {
+            "pattern": "^bere$",
+            "replacement": "bevere"
+        },
+        {
+            "pattern": "^fare$",
+            "replacement": "facere"
+        },
+        {
+            "pattern": "^bere$",
+            "replacement": "bevere"
+        },
+        {
+            "pattern": "^(.*?)porre$",
+            "replacement": "{1}ponere"
+        },
+        {
+            "pattern": "^(.*?)dire$",
+            "replacement": "{1}dicere"
+        },
+        {
+            "pattern": "^(.*?)(are|ere|ire|rre)$",
+            "replacement": "{1}"
+        }
+    ]
+}
