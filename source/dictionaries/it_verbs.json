@@ -373,30 +373,6 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?(sci|ci|gi|gli)$",
-          "flags": "i"
-        },
-        "lemma": {
-          "pattern": ".*?(sciare|ciare|giare|gliere)$",
-          "flags": "i"
-        },
-        "posTag": [
-          "VERB",
-          "AUX"
-        ],
-        "feats": "Mood=Ind|Mood=Sub|Tense=Pres"
-      },
-      "morphological_exponent": {
-        "template": "i"
-      },
-      "priority": 1,
-      "enabled": true
-    },
-    {
-      "name": "",
-      "type": "",
-      "conditions": {
-        "wordForm": {
           "pattern": "^.*?essere$",
           "flags": "i"
         },
@@ -3345,7 +3321,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": ".*?",
+          "pattern": "^.*?nascere$",
           "flags": "i"
         },
         "posTag": [
@@ -3368,7 +3344,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": ".*?",
+          "pattern": "^.*?nascere$",
           "flags": "i"
         },
         "posTag": [
@@ -3391,7 +3367,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": ".*?",
+          "pattern": "^.*?nascere$",
           "flags": "i"
         },
         "posTag": [
@@ -3414,7 +3390,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": ".*?",
+          "pattern": "^.*?nascere$",
           "flags": "i"
         },
         "posTag": [
@@ -9910,6 +9886,29 @@
       },
       "morphological_exponent": {
         "template": "n/sti"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?poste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "n/ste"
       },
       "priority": 2,
       "enabled": true
