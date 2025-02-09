@@ -17,8 +17,16 @@
             "replacement": "{1}ponere"
         },
         {
-            "pattern": "^(.*?)dire$",
+            "pattern": "^(bene|dis|male|contrad|pre|ri)dire$",
             "replacement": "{1}dicere"
+        },
+        {
+            "pattern": "^dire$",
+            "replacement": "dicere"
+        },
+        {
+            "pattern": "^(.*?)durre$",
+            "replacement": "{1}ducere"
         },
         {
             "pattern": "^(.*?)(are|ere|ire|rre)$",

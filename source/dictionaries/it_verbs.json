@@ -373,11 +373,38 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?essere$",
+          "pattern": "^.*?(sci|ci|gi|gli)?$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": ".*?",
+          "pattern": "^.*?(sci|ci|gi|gli)$",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ],
+        "feats": {
+          "Mood": ["Ind", "Sub"],
+          "Tense": "Pres"
+        }
+      },
+      "morphological_exponent": {
+        "template": "i"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?(erò|erai|erà|eremo|erete|eranno|erei|eresti|erebbe|eremmo|ereste|erebbero)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?(sci|ci|gi)$",
           "flags": "i"
         },
         "posTag": [
@@ -386,7 +413,30 @@
         ]
       },
       "morphological_exponent": {
-        "template": "essere"
+        "template": "{1}"
+      },
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?(c|g)h(i|iamo|iate|i|iamo|iate)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?(c|g)$",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "{2}"
       },
       "priority": 2,
       "enabled": true
@@ -3321,7 +3371,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?nascere$",
+          "pattern": "^.*?nasc$",
           "flags": "i"
         },
         "posTag": [
@@ -3344,7 +3394,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?nascere$",
+          "pattern": "^.*?nasc$",
           "flags": "i"
         },
         "posTag": [
@@ -3367,7 +3417,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?nascere$",
+          "pattern": "^.*?nasc$",
           "flags": "i"
         },
         "posTag": [
@@ -3390,7 +3440,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?nascere$",
+          "pattern": "^.*?nasc$",
           "flags": "i"
         },
         "posTag": [

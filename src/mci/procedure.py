@@ -82,7 +82,11 @@ class MorphologicalAnalyzer:
                         break
 
             if word_form_match and lemma_match and pos_match and feats_match:
-                return rule["morphological_exponent"]["template"]
+                template = rule["morphological_exponent"]["template"]
+                template = re.sub(r"\{(\d+)\}", r"\\\1", template)
+                result = word_form_match.expand(template)
+                
+                return result
 
         # If no irregular rule matches, return None
         return None
