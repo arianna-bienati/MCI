@@ -3,21 +3,9 @@
 import os
 
 import stanza
-from stanza.utils.conll import CoNLL
 import stanza.resources.common
 
-def run_stanza(text, language):
-    """
-    Process text using Stanza and return conllu data.
-
-    Args:
-        text (str): input text.
-        language (str): language of the input texts.
-
-    Returns:
-        processed CoNLL-U format as a list of lists.
-    """
-    # Ensure Stanza resources are downloaded
+def init_stanza(language):
     stanza_resources_path = os.path.join(stanza.resources.common.DEFAULT_MODEL_DIR, "resources.json")
     if not os.path.isfile(stanza_resources_path):
         stanza.resources.common.download_resources_json(
@@ -28,6 +16,10 @@ def run_stanza(text, language):
         )
     stanza.download(language)
     nlp = stanza.Pipeline(language, processors="tokenize,mwt,pos,lemma,depparse")
+    return nlp
+
+def run_stanza(text, language):
+    nlp = init_stanza(language)
     doc = nlp(text)
     dicts = doc.to_dict()
     return dicts

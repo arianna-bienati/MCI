@@ -1,11 +1,12 @@
 import argparse
 import argcomplete
+
 from pathlib import Path
 
 import pandas as pd
 
 import mci.process as process
-import mci.run_stanza as run_stanza
+from mci.run_stanza import init_stanza
 from mci.procedure import MorphologicalAnalyzer, LemmaNormalizer
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -39,6 +40,8 @@ LANGUAGE_TO_JSON = {
 }
 
 def _exp(args):
+    nlp = init_stanza(args.language)
+
     for input_file in args.input_files:
         input_path = Path(input_file).resolve()
         target_dir = Path(args.output_dir).resolve()
@@ -48,7 +51,8 @@ def _exp(args):
         # Run stanza to process the input file
         with open(input_path, "r", encoding="utf-8") as fh:
             text = fh.read()
-            stanza_output = run_stanza.run_stanza(text, args.language)
+            doc = nlp(text)
+            stanza_output = doc.to_dict()
         
         lang_files = LANGUAGE_TO_JSON[args.language]
 
