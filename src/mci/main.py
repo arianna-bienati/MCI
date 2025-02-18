@@ -2,7 +2,7 @@ import argparse
 import argcomplete
 
 from pathlib import Path
-
+from tqdm import tqdm
 import pandas as pd
 
 import mci.process as process
@@ -42,7 +42,7 @@ LANGUAGE_TO_JSON = {
 def _exp(args):
     nlp = init_stanza(args.language)
 
-    for input_file in args.input_files:
+    for input_file in tqdm(args.input_files):
         input_path = Path(input_file).resolve()
         target_dir = Path(args.output_dir).resolve()
         target_dir.mkdir(parents=True, exist_ok=True)
