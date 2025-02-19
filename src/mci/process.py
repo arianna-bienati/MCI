@@ -26,7 +26,7 @@ def process_sentence(sentence, analyzers, language, normalizer):
             deps = [dep.get("text", "").lower() for dep in sentence if dep.get("head") == token.get("id")]
             
             # Check conditions for verbs
-            check = "*" if (upos == "VERB" and (deprel == "amod" or any(dep == "det" for dep in deps))) else ""
+            check = "*" if (upos == "VERB" and (deprel == "amod" or any(dep in ["det", "det:poss", "det:predet"] for dep in deps))) else ""
             checks.append(check)
 
             exp_nouns.append(analyzer_nouns.extract_exponent(form, lemma, upos, feat) if upos == "NOUN" else "")
