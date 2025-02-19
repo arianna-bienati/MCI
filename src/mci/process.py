@@ -4,7 +4,7 @@ from typing import List, Tuple
 
 def process_sentence(sentence, analyzers, language, normalizer):
     """Process a single sentence and extract required data."""
-    forms, lemmas, poss, exp_nouns, exp_verbs, checks = ["[S_START]"], [""], [""], [""], [""], [""]
+    forms, lemmas, poss, exp_verbs, exp_nouns, checks = ["[S_START]"], [""], [""], [""], [""], [""]
     analyzer_nouns, analyzer_verbs = analyzers
 
     for token in sentence:
@@ -14,7 +14,7 @@ def process_sentence(sentence, analyzers, language, normalizer):
             upos = token.get("upos", "")
             xpos = token.get("xpos", "")
             pos = '_'.join(filter(None, [upos, xpos]))
-            feat = token.get("feats", "_")
+            feat = token.get("feats", "")
 
             lemma = normalizer.normalize_lemma(lemma, language)
 
@@ -40,7 +40,7 @@ def process_sentence(sentence, analyzers, language, normalizer):
     exp_verbs.append("")
     checks.append("")
 
-    return forms, lemmas, poss, exp_nouns, exp_verbs, checks
+    return forms, lemmas, poss, exp_verbs, exp_nouns, checks
 
 def read_csv(file_path: str) -> Tuple[List[str], List[str]]:
     """

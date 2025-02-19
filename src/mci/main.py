@@ -1,9 +1,9 @@
 import argparse
 import argcomplete
+import csv
 
 from pathlib import Path
 from tqdm import tqdm
-import pandas as pd
 
 import mci.process as process
 from mci.run_stanza import init_stanza
@@ -61,22 +61,14 @@ def _exp(args):
         analyzer_nouns = MorphologicalAnalyzer(lang_files["nouns"])
         analyzer_verbs = MorphologicalAnalyzer(lang_files["verbs"])
 
-        forms, lemmas, poss, exp_nouns, exp_verbs, checks = [], [], [], [], [], []
+        with open(output_path, "w", encoding="utf-8") as f:
+            writer = csv.writer(f, lineterminator="\n")
+            writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "check"])  # Header
 
-        for sentence in stanza_output:
-            sentence_data = process.process_sentence(sentence, (analyzer_nouns, analyzer_verbs), args.language, normalizer)
-            for col, sentence_col in zip([forms, lemmas, poss, exp_nouns, exp_verbs, checks], sentence_data):
-                col.extend(sentence_col)
-
-        df = pd.DataFrame({
-            "form": forms,
-            "lemma": lemmas,
-            "pos": poss,
-            "V_exp": exp_verbs,
-            "N_exp": exp_nouns,
-            "check": checks
-        })
-        df.to_csv(output_path, index=False)
+            for sentence in stanza_output:
+                sentence_data = process.process_sentence(sentence, (analyzer_nouns, analyzer_verbs), args.language, normalizer)
+                rows = zip(*sentence_data)  # Transpose sentence_data to match columns
+                writer.writerows(rows)
 
 def _mci(args):
     print("filename\toverall_mci\tnoun_mci\tverb_mci")
