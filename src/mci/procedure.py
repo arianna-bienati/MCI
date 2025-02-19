@@ -96,12 +96,7 @@ class MorphologicalAnalyzer:
         """
         Extracts the morphological exponent using the regular procedure.
         """
-        if form == lemma:
-            return "Ø"
-        elif form.startswith(lemma):
-            return form[len(lemma):] or "Ø"
-        else:
-            return form.replace(lemma, "", 1) or "Ø"
+        return form.replace(lemma, "", 1) or "Ø"
 
     def extract_exponent(self, form, lemma, pos, feats):
         """
