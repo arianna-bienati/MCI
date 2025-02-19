@@ -21,7 +21,6 @@ classifiers = [
 ]
 dependencies = [
     "argcomplete>=3.5",
-    "pandas>=2.2",
     "stanza>=1.10",
     "tqdm>=4"
 ]
