@@ -423,7 +423,7 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?(c|g)h(i|iamo|iate|i|iamo|iate)$",
+          "pattern": "^.*?(c|g)h(i|iamo|iate)$",
           "flags": "i"
         },
         "lemma": {
@@ -9531,7 +9531,7 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?berr$ò",
+          "pattern": "^.*?berrò$",
           "flags": "i"
         },
         "lemma": {
