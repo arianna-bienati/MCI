@@ -20,22 +20,22 @@ LANGUAGE_TO_JSON = {
     "it": {
         "nouns": str(BASE_DIR / "source/dictionaries/it_nouns.json"),
         "verbs": str(BASE_DIR / "source/dictionaries/it_verbs.json"),
-        "adjectives": str(BASE_DIR / "source/dictionaries/it_adj.json")
+        "adjs": str(BASE_DIR / "source/dictionaries/it_adj.json")
     },
     "de": {
         "nouns": str(BASE_DIR / "source/dictionaries/placeholder.json"),
         "verbs": str(BASE_DIR / "source/dictionaries/placeholder.json"),
-        "adjectives": str(BASE_DIR / "source/dictionaries/placeholder.json")
+        "adjs": str(BASE_DIR / "source/dictionaries/placeholder.json")
     },
     "fr": {
         "nouns": str(BASE_DIR / "source/dictionaries/placeholder.json"),
         "verbs": str(BASE_DIR / "source/dictionaries/placeholder.json"),
-        "adjectives": str(BASE_DIR / "source/dictionaries/placeholder.json")
+        "adjs": str(BASE_DIR / "source/dictionaries/placeholder.json")
     },
     "es": {
         "nouns": str(BASE_DIR / "source/dictionaries/placeholder.json"),
         "verbs": str(BASE_DIR / "source/dictionaries/placeholder.json"),
-        "adjectives": str(BASE_DIR / "source/dictionaries/placeholder.json")
+        "adjs": str(BASE_DIR / "source/dictionaries/placeholder.json")
     },
 }
 
@@ -58,15 +58,16 @@ def _exp(args):
 
         normalizer = LemmaNormalizer(BASE_DIR / "source/dictionaries/norm_lemma.json")
 
-        analyzer_nouns = MorphologicalAnalyzer(lang_files["nouns"])
         analyzer_verbs = MorphologicalAnalyzer(lang_files["verbs"])
+        analyzer_nouns = MorphologicalAnalyzer(lang_files["nouns"])
+        analyzer_adj = MorphologicalAnalyzer(lang_files["adjs"])
 
         with open(output_path, "w", encoding="utf-8") as f:
             writer = csv.writer(f, lineterminator="\n")
-            writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "check"])  # Header
+            writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "A_exp", "check"])  # Header
 
             for sentence in stanza_output:
-                sentence_data = process.process_sentence(sentence, (analyzer_nouns, analyzer_verbs), args.language, normalizer)
+                sentence_data = process.process_sentence(sentence, (analyzer_verbs, analyzer_nouns, analyzer_adj), args.language, normalizer)
                 rows = zip(*sentence_data)  # Transpose sentence_data to match columns
                 writer.writerows(rows)
 
@@ -74,8 +75,8 @@ def _mci(args):
     print("filename\toverall_mci\tnoun_mci\tverb_mci")
     for input_file in args.input_files:
         input_path = Path(input_file).resolve()
-        overall_mci, noun_mci, verb_mci = process.calculate_index(input_path, args.n_samples, args.size, args.seed) 
-        print(f"{input_path.stem}\t{overall_mci:.4f}\t{noun_mci:.4f}\t{verb_mci:.4f}")
+        overall_mci, noun_mci, verb_mci, adj_mci = process.calculate_index(input_path, args.n_samples, args.size, args.seed) 
+        print(f"{input_path.stem}\t{overall_mci:.4f}\t{verb_mci:.4f}\t{noun_mci:.4f}\t{adj_mci:.4f}")
 
 def main():
     parser = argparse.ArgumentParser(
