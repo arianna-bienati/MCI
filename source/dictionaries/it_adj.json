@@ -1,0 +1,48 @@
+{
+  "rules": [
+    {
+      "name": "words that end in -a, -e, -o, -i but are invariant",
+      "type": "Invariable nouns",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(antinebbia|antiruggine|arancione|beige|cachi|khaki|kaki|cremisi|dappoco|dispari|extra|fluo|fucsia|fuxia|impari|indaco|lilla|malva|maxi|mega|mini|ocra|pari|perbene|porpora|retro|rétro|rosa|turchese|ultra|vinaccia|vintage|viola)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "Ø"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "Regular adj",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?(a|o|e|i)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "{1}"
+      },
+      "priority": "2",
+      "enabled": true
+    }
+  ]
+}

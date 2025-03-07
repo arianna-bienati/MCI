@@ -1,0 +1,180 @@
+{
+  "rules": [
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(acqueforti|casseforti|mezzenotti)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a/e_/i"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(cartepeste|casematte|gattemorte|terrecotte|mezzelune|mezzetinte)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a/e_/e"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(capiclasse|capidivisione|capifamiglia|capifila|capiposto|capireparto|capisezione|capistazione|capitreno|capiturno|capisquadra|grillitalpa)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o/i_"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(capisaldi|collitorti|fabbriferrai|bassifondi|altiforni|mezzibusti)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o/i_/i"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(pescispada|pescisega|pesciluna)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_e/i_"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^(abbondanza|accendigas|accendisigari|acchiappamosche|agosto|allegria|alluminio|analisi|apribottiglie|aprile|argento|arsenico|asciugacapelli|aspirapolvere|audacia|auto|avarizia|azoto|baciapile|barbarie|battipanni|battistrada|bici|bloccasterzo|boia|brindisi|cacciavite|calende|carbonio|caricabatterie|cavalcavia|centrocampo|cinema|cloro|cobra|colapasta|copricostume|coraggio|crisi|cruciverba|cyclette|dicembre|dormiveglia|est|febbraio|fermacapelli|fogliame|foto|fuggifuggi|gennaio|giugno|giustizia|gorilla|gru|guardasigilli|guastafeste|ipotesi|kimono|luglio|maggio|malaria|malizia|magnesio|marzo|mezzosangue|montacarichi|morbillo|moto|nevrosi|nord|novembre|oasi|occhial|ossigeno|ottobre|ovest|paracolpi|parapiglia|passamontagna|passaparola|pazienza|poggiapiedi|portabandiera|portacenere|portafrutta|portapenne|portasci|posacenere|potassio|prole|purosangue|radio|re|redini|retroterra|roba|saliscendi|schiaccianoci|sci|sciame|scioglilingua|segnalinee|serie|settembre|sintesi|sodio|sosia|sottobottiglia|sottocoda|sottopancia|sottoscala|spazzaneve|specie|sud|taxi|tesi|uranio|vaglia|vaiolo|viavai|zinco)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "Ø"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?(ò|à|ù|è|ì|é|b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "Ø"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?(a|o|e|i)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "{1}"
+      },
+      "priority": "4",
+      "enabled": true
+    }
+  ]
+}
