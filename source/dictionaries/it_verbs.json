@@ -9985,6 +9985,29 @@
       },
       "priority": 2,
       "enabled": true
+    },
+    {
+      "name": "normalize infinite",
+      "type": "normalization",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?(ar|er|ir)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB",
+          "AUX"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "{1}e"
+      },
+      "priority": 2,
+      "enabled": true
     }
   ]
 }

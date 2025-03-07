@@ -31,6 +31,10 @@
         {
             "pattern": "^(.*?)(are|ere|ire|rre)$",
             "replacement": "{1}"
+        },
+        {
+            "pattern": "^(.*?)(ar|er|ir|rr)$",
+            "replacement": "{1}"
         }
     ]
 }
