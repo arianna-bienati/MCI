@@ -14,11 +14,11 @@ def tsv_to_json(tsv_file, json_file):
                 "type": "",
                 "conditions": {
                     "wordForm": {
-                        "pattern": f"^{row['form']}$",
+                        "pattern": f"^.*?{row['form']}$",
                         "flags": "i"
                     },
                     "lemma": {
-                        "pattern": f"^{row['lemma']}$",
+                        "pattern": f"^.*?{row['lemma']}$",
                         "flags": "i"
                     },
                     "posTag": row['pos'].split(',')
@@ -66,4 +66,4 @@ if __name__ == "__main__":
         output_tsv = sys.argv[3]
         json_to_tsv(input_json, output_tsv)
     else:
-        print("Usage: script.py --tsv_to_json input.tsv output.json | --json_to_tsv input.json output.tsv")
+        print("Usage: utils.py --tsv_to_json input.tsv output.json | --json_to_tsv input.json output.tsv")
