@@ -9,10 +9,6 @@
             "replacement": "facere"
         },
         {
-            "pattern": "^bere$",
-            "replacement": "bevere"
-        },
-        {
             "pattern": "^(.*?)porre$",
             "replacement": "{1}ponere"
         },
@@ -30,10 +26,6 @@
         },
         {
             "pattern": "^(.*?)(are|ere|ire|rre)$",
-            "replacement": "{1}"
-        },
-        {
-            "pattern": "^(.*?)(ar|er|ir|rr)$",
             "replacement": "{1}"
         }
     ]
