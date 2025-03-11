@@ -77,7 +77,7 @@ def random_samples(exponents: List[str], n_samples: int, size: int, seed: int = 
     """
     if seed is not None:
         random.seed(seed)
-    return [random.sample(exponents, size) for _ in range(n_samples)]
+    return [random.sample(exponents, size) for _ in range(n_samples)] # here I need to use choice repeated x time or choices, ma poi non so se posso fare deterministic run.
 
 def mean_unique_lengths(samples: List[List[str]]) -> float:
     """
