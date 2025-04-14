@@ -24,7 +24,7 @@ LANGUAGE_TO_JSON = {
     },
     "de": {
         "nouns": str(BASE_DIR / "source/dictionaries/placeholder.json"),
-        "verbs": str(BASE_DIR / "source/dictionaries/placeholder.json"),
+        "verbs": str(BASE_DIR / "source/dictionaries/de_verbs.json"),
         "adjs": str(BASE_DIR / "source/dictionaries/placeholder.json")
     },
     "fr": {

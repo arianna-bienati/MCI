@@ -28,5 +28,15 @@
             "pattern": "^(.*?)(are|ere|ire|rre)$",
             "replacement": "{1}"
         }
+    ],
+    "de": [
+        {
+            "pattern": "^(.*?er|.*?el)(n)$",
+            "replacement": "{1}"
+        },
+        {
+            "pattern": "^(.*?)(en)$",
+            "replacement": "{1}"
+        }
     ]
 }
