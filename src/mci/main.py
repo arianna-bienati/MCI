@@ -64,19 +64,54 @@ def _exp(args):
 
         with open(output_path, "w", encoding="utf-8") as f:
             writer = csv.writer(f, lineterminator="\n")
-            writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "A_exp", "check"])  # Header
+            
+            # Modify header based on language
+            if args.language == "en":
+                writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "check"]) 
+            else:
+                writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "A_exp", "check"])  # Header
 
             for sentence in stanza_output:
                 sentence_data = process.process_sentence(sentence, (analyzer_verbs, analyzer_nouns, analyzer_adj), args.language, normalizer)
+                
+                if args.language == "en":
+                    sentence_data = [row[:4] + row[5:] for row in sentence_data]  # Skip A_exp (index 4)
+
                 rows = zip(*sentence_data)  # Transpose sentence_data to match columns
                 writer.writerows(rows)
 
 def _mci(args):
-    print("filename\toverall_mci\tnoun_mci\tverb_mci")
+    """Prints MCI results for each file, handling both with and without adjectives."""
+    # First pass: process all files and collect results
+    results = []
+    has_any_adj = False  # Initialize flag
+
     for input_file in args.input_files:
         input_path = Path(input_file).resolve()
-        overall_mci, noun_mci, verb_mci, adj_mci = process.calculate_index(input_path, args.n_samples, args.size, args.seed) 
-        print(f"{input_path.stem}\t{overall_mci:.4f}\t{verb_mci:.4f}\t{noun_mci:.4f}\t{adj_mci:.4f}")
+        result = process.calculate_index(input_path, args.n_samples, args.size, args.seed)
+        results.append((input_path, result))
+        if len(result) == 4:  # If adjectives exist in this file
+            has_any_adj = True
+
+    # Print header (include adj_mci only if any file has adjectives)
+    headers = ["filename", "overall_mci", "verb_mci", "noun_mci"]
+    if has_any_adj:
+        headers.append("adj_mci")
+    print("\t".join(headers))
+
+    # Print results
+    for input_path, result in results:
+        line_parts = [
+            input_path.stem,
+            f"{result[0]:.4f}",  # overall_mci
+            f"{result[1]:.4f}",  # verb_mci
+            f"{result[2]:.4f}",  # noun_mci
+        ]
+        if has_any_adj:
+            # Add adj_mci if available, else NA
+            adj_value = f"{result[3]:.4f}" if len(result) == 4 else "NA"
+            line_parts.append(adj_value)
+        print("\t".join(line_parts))
 
 def main():
     parser = argparse.ArgumentParser(
