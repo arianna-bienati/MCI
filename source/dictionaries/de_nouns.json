@@ -5,11 +5,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?visa$",
+          "pattern": "^visa$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?visum$",
+          "pattern": "^visum$",
           "flags": "i"
         },
         "posTag": [
@@ -27,11 +27,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?atlanten$",
+          "pattern": "^atlanten$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?atlas$",
+          "pattern": "^atlas$",
           "flags": "i"
         },
         "posTag": [
@@ -49,11 +49,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?lexika$",
+          "pattern": "^lexika$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?lexikon$",
+          "pattern": "^lexikon$",
           "flags": "i"
         },
         "posTag": [
@@ -71,11 +71,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?museen$",
+          "pattern": "^museen$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?museum$",
+          "pattern": "^museum$",
           "flags": "i"
         },
         "posTag": [
@@ -93,11 +93,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?radien$",
+          "pattern": "^radien$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?radius$",
+          "pattern": "^radius$",
           "flags": "i"
         },
         "posTag": [
@@ -115,11 +115,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?viren$",
+          "pattern": "^viren$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?virus$",
+          "pattern": "^virus$",
           "flags": "i"
         },
         "posTag": [
@@ -137,11 +137,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?rhythmen$",
+          "pattern": "^rhythmen$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?rhythmus$",
+          "pattern": "^rhythmus$",
           "flags": "i"
         },
         "posTag": [
@@ -159,11 +159,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?globen$",
+          "pattern": "^globen$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?globus$",
+          "pattern": "^globus$",
           "flags": "i"
         },
         "posTag": [
@@ -181,11 +181,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?kakteen$",
+          "pattern": "^kakteen$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?kaktus$",
+          "pattern": "^kaktus$",
           "flags": "i"
         },
         "posTag": [
@@ -203,11 +203,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?dramen$",
+          "pattern": "^dramen$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?drama$",
+          "pattern": "^drama$",
           "flags": "i"
         },
         "posTag": [
@@ -225,11 +225,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?themen$",
+          "pattern": "^themen$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?thema$",
+          "pattern": "^thema$",
           "flags": "i"
         },
         "posTag": [
@@ -247,11 +247,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?firmen$",
+          "pattern": "^firmen$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?firma$",
+          "pattern": "^firma$",
           "flags": "i"
         },
         "posTag": [
@@ -269,11 +269,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?pizzen$",
+          "pattern": "^pizzen$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?pizza$",
+          "pattern": "^pizza$",
           "flags": "i"
         },
         "posTag": [
@@ -291,11 +291,11 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?äpfel$",
+          "pattern": "^äpfel$",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -303,7 +303,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_"
+        "template": "_a/ä_"
       },
       "priority": "2",
       "enabled": true
@@ -317,7 +317,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -325,7 +325,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_"
+        "template": "_u/ü_"
       },
       "priority": "2",
       "enabled": true
@@ -339,7 +339,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -347,7 +347,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_"
+        "template": "_a/ä_"
       },
       "priority": "2",
       "enabled": true
@@ -361,7 +361,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -369,7 +369,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_"
+        "template": "_a/ä_"
       },
       "priority": "2",
       "enabled": true
@@ -383,7 +383,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -391,7 +391,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_"
+        "template": "_a/ä_"
       },
       "priority": "2",
       "enabled": true
@@ -405,7 +405,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -413,7 +413,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_"
+        "template": "_a/ä_"
       },
       "priority": "2",
       "enabled": true
@@ -427,7 +427,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -435,7 +435,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_"
+        "template": "_a/ä_"
       },
       "priority": "2",
       "enabled": true
@@ -449,7 +449,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -457,7 +457,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_"
+        "template": "_u/ü_"
       },
       "priority": "2",
       "enabled": true
@@ -471,7 +471,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -479,7 +479,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_"
+        "template": "_a/ä_"
       },
       "priority": "2",
       "enabled": true
@@ -493,7 +493,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -501,7 +501,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_"
+        "template": "_a/ä_"
       },
       "priority": "2",
       "enabled": true
@@ -515,7 +515,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -523,7 +523,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_"
+        "template": "_o/ö_"
       },
       "priority": "2",
       "enabled": true
@@ -537,7 +537,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -545,7 +545,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_"
+        "template": "_a/ä_"
       },
       "priority": "2",
       "enabled": true
@@ -559,7 +559,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -567,7 +567,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_"
+        "template": "_o/ö_"
       },
       "priority": "2",
       "enabled": true
@@ -581,7 +581,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -589,7 +589,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_er"
+        "template": "_o/ö_er"
       },
       "priority": "3",
       "enabled": true
@@ -603,7 +603,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -611,7 +611,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_er"
+        "template": "_o/ö_er"
       },
       "priority": "3",
       "enabled": true
@@ -625,7 +625,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -633,7 +633,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -647,7 +647,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -655,7 +655,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_er"
+        "template": "_u/ü_er"
       },
       "priority": "3",
       "enabled": true
@@ -669,7 +669,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -677,7 +677,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -691,7 +691,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -699,7 +699,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -713,7 +713,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -721,7 +721,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -735,7 +735,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -743,7 +743,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -757,7 +757,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -765,7 +765,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -779,7 +779,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -787,7 +787,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -801,7 +801,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -809,7 +809,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -823,7 +823,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -831,7 +831,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -845,7 +845,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -853,7 +853,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -867,7 +867,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -875,7 +875,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -889,7 +889,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [
@@ -897,7 +897,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -919,7 +919,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -941,7 +941,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -963,7 +963,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -985,7 +985,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1007,7 +1007,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1029,7 +1029,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1051,7 +1051,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1073,7 +1073,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1095,7 +1095,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1117,7 +1117,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -1139,7 +1139,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -1161,7 +1161,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1183,7 +1183,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1205,7 +1205,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1227,7 +1227,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1249,7 +1249,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1271,7 +1271,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_en"
+        "template": "_a/ä_en"
       },
       "priority": "3",
       "enabled": true
@@ -1293,7 +1293,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1315,7 +1315,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1337,7 +1337,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1359,7 +1359,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1381,7 +1381,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -1403,7 +1403,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1425,7 +1425,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1447,7 +1447,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -1469,7 +1469,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1491,7 +1491,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -1513,7 +1513,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1535,7 +1535,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -1557,7 +1557,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_er"
+        "template": "_u/ü_er"
       },
       "priority": "3",
       "enabled": true
@@ -1579,7 +1579,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_e"
+        "template": "_o/ö_e"
       },
       "priority": "3",
       "enabled": true
@@ -1601,7 +1601,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1623,7 +1623,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1645,7 +1645,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -1667,7 +1667,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -1689,7 +1689,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_er"
+        "template": "_o/ö_er"
       },
       "priority": "3",
       "enabled": true
@@ -1711,7 +1711,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_e"
+        "template": "_o/ö_e"
       },
       "priority": "3",
       "enabled": true
@@ -1733,7 +1733,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_e"
+        "template": "_o/ö_e"
       },
       "priority": "3",
       "enabled": true
@@ -1755,7 +1755,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_er"
+        "template": "_o/ö_er"
       },
       "priority": "3",
       "enabled": true
@@ -1777,7 +1777,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_e"
+        "template": "_o/ö_e"
       },
       "priority": "3",
       "enabled": true
@@ -1799,7 +1799,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_er"
+        "template": "_o/ö_er"
       },
       "priority": "3",
       "enabled": true
@@ -1821,7 +1821,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_er"
+        "template": "_o/ö_er"
       },
       "priority": "3",
       "enabled": true
@@ -1843,7 +1843,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_e"
+        "template": "_o/ö_e"
       },
       "priority": "3",
       "enabled": true
@@ -1865,7 +1865,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -1887,7 +1887,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_e"
+        "template": "_a/ä_e"
       },
       "priority": "3",
       "enabled": true
@@ -1909,7 +1909,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_er"
+        "template": "_a/ä_er"
       },
       "priority": "3",
       "enabled": true
@@ -1931,7 +1931,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_a_/_ä_en"
+        "template": "_a/ä_en"
       },
       "priority": "3",
       "enabled": true
@@ -1953,7 +1953,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_o_/_ö_e"
+        "template": "_o/ö_e"
       },
       "priority": "3",
       "enabled": true
@@ -1975,7 +1975,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_er"
+        "template": "_u/ü_er"
       },
       "priority": "3",
       "enabled": true
@@ -1997,7 +1997,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2019,7 +2019,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2041,7 +2041,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2063,7 +2063,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2085,7 +2085,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_er"
+        "template": "_u/ü_er"
       },
       "priority": "3",
       "enabled": true
@@ -2107,7 +2107,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_en"
+        "template": "_u/ü_en"
       },
       "priority": "3",
       "enabled": true
@@ -2129,7 +2129,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2151,7 +2151,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2173,7 +2173,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_en"
+        "template": "_u/ü_en"
       },
       "priority": "3",
       "enabled": true
@@ -2195,7 +2195,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2217,7 +2217,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_er"
+        "template": "_u/ü_er"
       },
       "priority": "3",
       "enabled": true
@@ -2239,7 +2239,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2261,7 +2261,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2283,7 +2283,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2305,7 +2305,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
       "enabled": true
@@ -2327,7 +2327,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_en"
+        "template": "_u/ü_en"
       },
       "priority": "3",
       "enabled": true
@@ -2349,9 +2349,31 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_u_/_ü_e"
+        "template": "_u/ü_e"
       },
       "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^arbeiten$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "en"
+      },
+      "priority": "1",
       "enabled": true
     }
   ]
