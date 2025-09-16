@@ -27,12 +27,15 @@ def process_sentence(sentence, analyzers, language, normalizer):
             deps = [dep.get("text", "").lower() for dep in sentence if dep.get("head") == token.get("id")]
             
             # Check conditions for verbs
-            check = "*" if (upos == "VERB" and (deprel == "amod" or any(dep in ["det", "det:poss", "det:predet"] for dep in deps))) else ""
+            check = "*" if (
+                (upos == "VERB" and (deprel == "amod" or any(dep in ["det", "det:poss", "det:predet"] for dep in deps))) or 
+                (upos == "ADJ" and deprel == "advmod")
+            ) else ""
             checks.append(check)
 
             exp_verbs.append(analyzer_verbs.extract_exponent(form, lemma, upos, feat) if (upos in ["VERB", "AUX"] and check == "") else "")
             exp_nouns.append(analyzer_nouns.extract_exponent(form, lemma, upos, feat) if upos == "NOUN" else "")
-            exp_adj.append(analyzer_adj.extract_exponent(form, lemma, upos, feat) if upos == "ADJ" else "")
+            exp_adj.append(analyzer_adj.extract_exponent(form, lemma, upos, feat) if (upos == "ADJ" and check == "") else "")
 
 
     # Add sentence end markers
