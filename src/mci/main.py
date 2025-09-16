@@ -63,7 +63,7 @@ def _exp(args):
         analyzer_adj = MorphologicalAnalyzer(lang_files["adjs"])
 
         with open(output_path, "w", encoding="utf-8") as f:
-            writer = csv.writer(f, lineterminator="\n")
+            writer = csv.writer(f, lineterminator="\n", delimiter='\t')
             
             # Modify header based on language
             if args.language == "en":
