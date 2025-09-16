@@ -11670,7 +11670,7 @@
           "flags": "i"
         },
         "lemma": {
-          "pattern": ".*?",
+          "pattern": "^.*?e(ß|ss)$",
           "flags": "i"
         },
         "posTag": [
