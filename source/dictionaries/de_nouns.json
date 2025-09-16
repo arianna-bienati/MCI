@@ -1,0 +1,2358 @@
+{
+  "rules": [
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?visa$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?visum$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "visa"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?atlanten$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?atlas$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "atlanten"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lexika$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?lexikon$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "lexica"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?museen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?museum$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_um/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?radien$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?radius$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_us/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?viren$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?virus$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_us/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?rhythmen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?rhythmus$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_us/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?globen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?globus$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_us/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?kakteen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?kaktus$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_us/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?dramen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?drama$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?themen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?thema$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?firmen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?firma$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?pizzen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?pizza$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a/en"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äpfel$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?brüder$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?gärten$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?gräben$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?kästen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?läden$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?mäntel$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?mütter$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?schäden$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?schwäger$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?töchter$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?väter$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?vögel$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?dörfer$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?götter$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?kräuter$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?münder$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?täler$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?wälder$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ängste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?früchte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?gänse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?kühe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ächte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?würste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?brünste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?flüchte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?künfte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äle$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?aal$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ächer$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ach$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äcke$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ack$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ädte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?adt$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äfte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?aft$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ähne$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ahn$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ähte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?aht$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?älle$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?all$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ämme$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?amm$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ämter$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?amt$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?änder$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?and$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ände$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?and$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?änge$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ang$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?änke$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ank$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?änner$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ann$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?änze$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?anz$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ären$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?äre$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_en"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ärte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?art$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?äse$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ässe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ass$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ast$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ätter$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?att$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ätze$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?atz$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äufe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?auf$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äuler$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?aul$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äume$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?aum$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äuser$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?aus$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?äute$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?aut$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?bäder$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?bad$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?güter$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?gut$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?höfe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?hof$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?läge$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?lag$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?läne$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?lan$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?läser$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?las$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?lüge$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?lug$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?öcher$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?och$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?öcke$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ock$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?öhne$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ohn$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ölzer$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?olz$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?öpfe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?opf$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?örner$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?orn$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?örter$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ort$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?össe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?oss$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?räder$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?rad$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?räge$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?rag$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?räser$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ras$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?täten$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?tät$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_a_/_ä_en"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?töne$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ton$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_o_/_ö_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ücher$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?uch$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?üche$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?uch$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ücke$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ück$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?üfte$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?uft$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ühle$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ühl$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ühner$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?uhn$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ühren$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ühr$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_en"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ünde$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?und$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ünge$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ung$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?üren$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?üre$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_en"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ürfe$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?urf$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ürmer$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?urm$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_er"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ürme$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?urm$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?üsen$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?üse$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?üsse$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?uss$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?üste$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ust$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?üten$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?üte$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_en"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?züge$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?zug$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_u_/_ü_e"
+      },
+      "priority": "3",
+      "enabled": true
+    }
+  ]
+}
