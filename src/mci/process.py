@@ -16,7 +16,8 @@ def process_sentence(sentence, analyzers, language, normalizer):
             pos = '_'.join(filter(None, [upos, xpos]))
             feat = token.get("feats", "")
 
-            lemma = normalizer.normalize_lemma(lemma, language)
+            if upos in ["VERB", "AUX"]:
+                lemma = normalizer.normalize_lemma(lemma, language)
 
             forms.append(token.get("text", ""))
             lemmas.append(token.get("lemma", ""))
