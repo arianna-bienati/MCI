@@ -23,11 +23,11 @@
       "enabled": true
     },
     {
-      "name": "Superlative adj",
+      "name": "Degree adj",
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?issim(a|o|e|i)$",
+          "pattern": "^.*?ior(e?|i?)$",
           "flags": "i"
         },
         "lemma": {
@@ -39,7 +39,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "issim{1}"
+        "template": "ior{1}"
       },
       "priority": "2",
       "enabled": true
