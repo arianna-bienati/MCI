@@ -23,6 +23,28 @@
       "enabled": true
     },
     {
+      "name": "Superlative adj",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?issim(a|o|e|i)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": ".*?",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "issim{1}"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
       "name": "Regular adj",
       "type": "",
       "conditions": {
@@ -41,7 +63,7 @@
       "morphological_exponent": {
         "template": "{1}"
       },
-      "priority": "2",
+      "priority": "3",
       "enabled": true
     }
   ]
