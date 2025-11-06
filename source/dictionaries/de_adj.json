@@ -225,28 +225,6 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?größ(er|t)(.*)$",
-          "flags": "i"
-        },
-        "lemma": {
-          "pattern": "^.*?$",
-          "flags": "i"
-        },
-        "posTag": [
-          "ADJ"
-        ]
-      },
-      "morphological_exponent": {
-        "template": "_o/ö_{1}{2}"
-      },
-      "priority": "1",
-      "enabled": true
-    },
-    {
-      "name": "",
-      "type": "",
-      "conditions": {
-        "wordForm": {
           "pattern": "^.*?härt(er|e?st)(.*?)$",
           "flags": "i"
         },
@@ -612,6 +590,28 @@
       },
       "morphological_exponent": {
         "template": "_a/ä_{1}{2}"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+        {
+      "name": "Adjektive mit e-Wegfall im Komparativ",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?[^aäeioöuü](l|r|n)(.*?)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?(el|er|en)$",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "_£e/_{2}"
       },
       "priority": "1",
       "enabled": true
