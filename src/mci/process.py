@@ -33,9 +33,9 @@ def process_sentence(sentence, analyzers, language, normalizer):
             ) else ""
             checks.append(check)
 
-            exp_verbs.append(analyzer_verbs.extract_exponent(form, lemma, upos, xpos, feat) if (upos in ["VERB", "AUX"] and check == "") else "")
+            exp_verbs.append(analyzer_verbs.extract_exponent(form, lemma, upos, xpos, feat) if (upos in ["VERB", "AUX"] and check == "" and not (upos == "VERB" and deprel == "amod")) else "")
             exp_nouns.append(analyzer_nouns.extract_exponent(form, lemma, upos, xpos, feat) if upos == "NOUN" else "")
-            exp_adj.append(analyzer_adj.extract_exponent(form, lemma, upos, xpos, feat) if (upos == "ADJ" and check == "") else "")
+            exp_adj.append(analyzer_adj.extract_exponent(form, lemma, upos, xpos, feat) if ((upos == "ADJ" and check == "") or (upos == "VERB" and deprel == "amod")) else "")
 
 
     # Add sentence end markers

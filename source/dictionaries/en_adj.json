@@ -134,6 +134,28 @@
       },
       "priority": "4",
       "enabled": true
+    },
+        {
+      "name": "adjectival gerunds",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ing$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "VERB"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "Ø"
+      },
+      "priority": "4",
+      "enabled": true
     }
   ]
 }
