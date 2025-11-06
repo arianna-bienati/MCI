@@ -1,0 +1,139 @@
+{
+  "rules": [
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?better$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "better"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+        {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?more$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "more"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+        {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?less$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "less"
+      },
+      "priority": "1",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?farth(er|est)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "farth{1}"
+      },
+      "priority": "2",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?i(er|est)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?y$",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "{1}"
+      },
+      "priority": "3",
+      "enabled": true
+    },
+    {
+      "name": "",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?(er|est)$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?$",
+          "flags": "i"
+        },
+        "posTag": [
+          "ADJ"
+        ],
+        "xposTag": [
+          "JJR", "JJS"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "{1}"
+      },
+      "priority": "4",
+      "enabled": true
+    }
+  ]
+}

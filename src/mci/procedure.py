@@ -45,7 +45,7 @@ class MorphologicalAnalyzer:
             return {}
         return dict(item.split("=") for item in feats.split("|"))
     
-    def extract_irregular_exponent(self, form, lemma, pos, feats=None):
+    def extract_irregular_exponent(self, form, lemma, pos, xpos, feats=None):
         """
         Tries to extract the morphological exponent using irregular rules.
         """
@@ -72,6 +72,10 @@ class MorphologicalAnalyzer:
             # Match pos
             pos_match = pos in conditions["posTag"]
 
+            # Match xpos
+            xpos_allowed = conditions.get("xposTag")
+            xpos_match = (xpos_allowed is None) or (xpos is not None and xpos in xpos_allowed)
+
             # Match feats if provided in rule
             feats_match = True
             if "feats" in conditions:
@@ -81,7 +85,7 @@ class MorphologicalAnalyzer:
                         feats_match = False
                         break
 
-            if word_form_match and lemma_match and pos_match and feats_match:
+            if word_form_match and lemma_match and pos_match and xpos_match and feats_match:
                 template = rule["morphological_exponent"]["template"]
                 template = re.sub(r"\{(\d+)\}", r"\\\1", template)
                 result = word_form_match.expand(template)
@@ -98,12 +102,12 @@ class MorphologicalAnalyzer:
         """
         return form.replace(lemma, "", 1) or "Ø"
 
-    def extract_exponent(self, form, lemma, pos, feats):
+    def extract_exponent(self, form, lemma, pos, xpos, feats):
         """
         Extracts the morphological exponent, prioritizing irregular rules.
         """
         # Try irregular rules first
-        irregular_exponent = self.extract_irregular_exponent(form, lemma, pos, feats)
+        irregular_exponent = self.extract_irregular_exponent(form, lemma, pos, xpos, feats)
         if irregular_exponent:
             return irregular_exponent
 
