@@ -269,50 +269,6 @@
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?höher(.*?)$",
-          "flags": "i"
-        },
-        "lemma": {
-          "pattern": "^.*?$",
-          "flags": "i"
-        },
-        "posTag": [
-          "ADJ"
-        ]
-      },
-      "morphological_exponent": {
-        "template": "_o/ö_er{2}"
-      },
-      "priority": "1",
-      "enabled": true
-    },
-    {
-      "name": "",
-      "type": "",
-      "conditions": {
-        "wordForm": {
-          "pattern": "^.*?höchst(.*?)$",
-          "flags": "i"
-        },
-        "lemma": {
-          "pattern": "^.*?$",
-          "flags": "i"
-        },
-        "posTag": [
-          "ADJ"
-        ]
-      },
-      "morphological_exponent": {
-        "template": "_o/ö_sten{2}"
-      },
-      "priority": "1",
-      "enabled": true
-    },
-    {
-      "name": "",
-      "type": "",
-      "conditions": {
-        "wordForm": {
           "pattern": "^.*?jüng(er|st)(.*?)$",
           "flags": "i"
         },
@@ -468,50 +424,6 @@
       "conditions": {
         "wordForm": {
           "pattern": "^.*?läng(er|st)(.*?)$",
-          "flags": "i"
-        },
-        "lemma": {
-          "pattern": "^.*?$",
-          "flags": "i"
-        },
-        "posTag": [
-          "ADJ"
-        ]
-      },
-      "morphological_exponent": {
-        "template": "_a/ä_{1}{2}"
-      },
-      "priority": "1",
-      "enabled": true
-    },
-    {
-      "name": "",
-      "type": "",
-      "conditions": {
-        "wordForm": {
-          "pattern": "^.*?näher(.*?)$",
-          "flags": "i"
-        },
-        "lemma": {
-          "pattern": "^.*?$",
-          "flags": "i"
-        },
-        "posTag": [
-          "ADJ"
-        ]
-      },
-      "morphological_exponent": {
-        "template": "_a/ä_{1}{2}"
-      },
-      "priority": "1",
-      "enabled": true
-    },
-    {
-      "name": "",
-      "type": "",
-      "conditions": {
-        "wordForm": {
-          "pattern": "^.*?nächst(.*?)$",
           "flags": "i"
         },
         "lemma": {
