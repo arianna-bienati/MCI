@@ -611,7 +611,7 @@
         ]
       },
       "morphological_exponent": {
-        "template": "_£e/_{2}"
+        "template": "_£e_{2}"
       },
       "priority": "1",
       "enabled": true
