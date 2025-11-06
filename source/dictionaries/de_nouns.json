@@ -2353,6 +2353,28 @@
       },
       "priority": "3",
       "enabled": true
+    },
+    {
+      "name": "Scharfes s normalization",
+      "type": "",
+      "conditions": {
+        "wordForm": {
+          "pattern": "^.*?ss$",
+          "flags": "i"
+        },
+        "lemma": {
+          "pattern": "^.*?ß$",
+          "flags": "i"
+        },
+        "posTag": [
+          "NOUN"
+        ]
+      },
+      "morphological_exponent": {
+        "template": "Ø"
+      },
+      "priority": "4",
+      "enabled": true
     }
   ]
 }
