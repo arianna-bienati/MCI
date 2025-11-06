@@ -81,37 +81,18 @@ def _exp(args):
                 writer.writerows(rows)
 
 def _mci(args):
-    """Prints MCI results for each file, handling both with and without adjectives."""
-    # First pass: process all files and collect results
-    results = []
-    has_any_adj = False  # Initialize flag
+    header = ["filename", "overall_mci", "verb_mci", "noun_mci", "adj_mci"]
+    print("\t".join(header))
 
     for input_file in args.input_files:
         input_path = Path(input_file).resolve()
-        result = process.calculate_index(input_path, args.n_samples, args.size, args.seed)
-        results.append((input_path, result))
-        if len(result) == 4:  # If adjectives exist in this file
-            has_any_adj = True
-
-    # Print header (include adj_mci only if any file has adjectives)
-    headers = ["filename", "overall_mci", "verb_mci", "noun_mci"]
-    if has_any_adj:
-        headers.append("adj_mci")
-    print("\t".join(headers))
-
-    # Print results
-    for input_path, result in results:
-        line_parts = [
-            input_path.stem,
-            f"{result[0]:.4f}",  # overall_mci
-            f"{result[1]:.4f}",  # verb_mci
-            f"{result[2]:.4f}",  # noun_mci
-        ]
-        if has_any_adj:
-            # Add adj_mci if available, else NA
-            adj_value = f"{result[3]:.4f}" if len(result) == 4 else "NA"
-            line_parts.append(adj_value)
-        print("\t".join(line_parts))
+        overall, noun, verb, adj = process.calculate_index(
+            input_path, args.n_samples, args.size, args.seed
+        )
+        print(
+            f"{input_path.stem}\t"
+            f"{overall:.4f}\t{noun:.4f}\t{verb:.4f}\t{adj:.4f}"
+        )
 
 def main():
     parser = argparse.ArgumentParser(
