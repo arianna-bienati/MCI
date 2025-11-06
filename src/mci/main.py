@@ -141,7 +141,7 @@ def main():
         choices=["en", "de", "it", "fr", "es"],
         type=str,
         required=True,
-        help="Input language. Supported languages: en, de, it, fr, es")
+        help="Input language. Supported languages: en, de, it. Coming soon: es, fr")
 
     parser_exp.set_defaults(func=_exp)
 
