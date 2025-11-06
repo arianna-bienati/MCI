@@ -15,7 +15,7 @@ LANGUAGE_TO_JSON = {
     "en": {
         "nouns": str(BASE_DIR / "source/dictionaries/en_nouns.json"),
         "verbs": str(BASE_DIR / "source/dictionaries/en_verbs.json"),
-        "adjs": str(BASE_DIR / "source/dictionaries/placeholder.json")
+        "adjs": str(BASE_DIR / "source/dictionaries/en_adj.json")
     },
     "it": {
         "nouns": str(BASE_DIR / "source/dictionaries/it_nouns.json"),
@@ -66,16 +66,16 @@ def _exp(args):
             writer = csv.writer(f, lineterminator="\n", delimiter='\t')
             
             # Modify header based on language
-            if args.language == "en":
-                writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "check"]) 
-            else:
-                writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "A_exp", "check"])  # Header
+            #if args.language == "en":
+                #writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "check"]) 
+            #else:
+            writer.writerow(["form", "lemma", "pos", "V_exp", "N_exp", "A_exp", "check"])  # Header
 
             for sentence in stanza_output:
                 sentence_data = process.process_sentence(sentence, (analyzer_verbs, analyzer_nouns, analyzer_adj), args.language, normalizer)
                 
-                if args.language == "en":
-                    sentence_data = [row[:4] + row[5:] for row in sentence_data]  # Skip A_exp (index 4)
+                #if args.language == "en":
+                    #sentence_data = [row[:4] + row[5:] for row in sentence_data]  # Skip A_exp (index 4)
 
                 rows = zip(*sentence_data)  # Transpose sentence_data to match columns
                 writer.writerows(rows)
