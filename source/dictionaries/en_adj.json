@@ -136,15 +136,15 @@
       "enabled": true
     },
         {
-      "name": "adjectival gerunds",
+      "name": "adjectival gerunds and participles",
       "type": "",
       "conditions": {
         "wordForm": {
-          "pattern": "^.*?ing$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "lemma": {
-          "pattern": "^.*?$",
+          "pattern": ".*?",
           "flags": "i"
         },
         "posTag": [

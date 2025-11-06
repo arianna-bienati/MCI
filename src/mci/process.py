@@ -24,18 +24,39 @@ def process_sentence(sentence, analyzers, language, normalizer):
             poss.append(pos)
 
             deprel = token.get("deprel", "")
-            deps = [dep.get("text", "").lower() for dep in sentence if dep.get("head") == token.get("id")]
+            deps = [dep.get("deprel", "") for dep in sentence if dep.get("head") == token.get("id")]
             
-            # Check conditions for verbs
-            check = "*" if (
-                (upos == "VERB" and (deprel == "amod" or any(dep in ["det", "det:poss", "det:predet"] for dep in deps))) or 
-                (upos == "ADJ" and deprel == "advmod")
-            ) else ""
+            # Check conditions
+            # Determine if current token should be marked in check column
+            is_verb_as_amod = (upos == "VERB" and deprel == "amod")
+            is_verb_with_det = (upos == "VERB" and any(dep in ["det", "det:poss", "det:predet"] for dep in deps))
+            is_adj_as_advmod = (upos == "ADJ" and deprel == "advmod")
+            is_noun_compound = (upos == "NOUN" and deprel == "compound" and form.endswith("ing"))
+            
+            # Mark with asterisk if any special condition is met
+            check = "*" if (is_verb_as_amod or is_verb_with_det or is_adj_as_advmod or is_noun_compound) else ""
             checks.append(check)
-
-            exp_verbs.append(analyzer_verbs.extract_exponent(form, lemma, upos, xpos, feat) if (upos in ["VERB", "AUX"] and check == "" and not (upos == "VERB" and deprel == "amod")) else "")
-            exp_nouns.append(analyzer_nouns.extract_exponent(form, lemma, upos, xpos, feat) if upos == "NOUN" else "")
-            exp_adj.append(analyzer_adj.extract_exponent(form, lemma, upos, xpos, feat) if ((upos == "ADJ" and check == "") or (upos == "VERB" and deprel == "amod")) else "")
+            
+            # Extract verb exponents
+            # Process as verb only if: it's a VERB/AUX, not verb_as_amod, and not verb_with_det
+            is_processable_verb = (upos in ["VERB", "AUX"]) and not is_verb_as_amod and not is_verb_with_det
+            exp_verbs.append(
+                analyzer_verbs.extract_exponent(form, lemma, upos, xpos, feat) if is_processable_verb else ""
+            )
+            
+            # Extract noun exponents
+            # Process as noun if: it's a NOUN or it's a verb_with_det
+            is_processable_noun = (upos == "NOUN") or is_verb_with_det
+            exp_nouns.append(
+                analyzer_nouns.extract_exponent(form, lemma, upos, xpos, feat) if is_processable_noun else ""
+            )
+            
+            # Extract adjective exponents
+            # Process as adjective if: it's an ADJ (not used as ADV) OR it's verb_as_amod
+            is_processable_adj = ((upos == "ADJ") and not is_adj_as_advmod) or is_verb_as_amod
+            exp_adj.append(
+                analyzer_adj.extract_exponent(form, lemma, upos, xpos, feat) if is_processable_adj else ""
+            )
 
 
     # Add sentence end markers
