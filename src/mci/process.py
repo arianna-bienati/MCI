@@ -1,5 +1,6 @@
 import random
 import csv
+import math
 from typing import List, Tuple, Union
 
 def process_sentence(sentence, analyzers, language, normalizer):
@@ -97,6 +98,9 @@ def random_samples(exponents: List[str], n_samples: int, size: int, seed: int = 
     :param seed: Seed for random sampling.
     :return: List of sampled exponents.
     """
+    if not exponents:
+        return []
+
     if seed is not None:
         random.seed(seed)
     return [[random.choice(exponents) for _ in range(size)] for _ in range(n_samples)]
@@ -108,6 +112,9 @@ def mean_unique_lengths(samples: List[List[str]]) -> float:
     :param samples: List of samples.
     :return: Mean length of unique exponents.
     """
+    if not samples:
+        return float("nan")
+
     unique_lengths = [len(set(sample)) for sample in samples]
     return sum(unique_lengths) / len(unique_lengths)
 
@@ -118,6 +125,9 @@ def symmetric_difference(samples: List[List[str]]) -> float:
     :param samples: List of samples.
     :return: Average symmetric difference.
     """
+    if len(samples) < 2:
+        return float("nan")
+
     total_difference = 0
     for i, sample_i in enumerate(samples):
         for j, sample_j in enumerate(samples):
@@ -125,7 +135,12 @@ def symmetric_difference(samples: List[List[str]]) -> float:
                 total_difference += len(set(sample_i).symmetric_difference(set(sample_j)))
 
     num_comparisons = len(samples) * (len(samples) - 1)
-    return total_difference / num_comparisons if num_comparisons > 0 else 0
+    return total_difference / num_comparisons
+
+def _safe_index(mean_len, sym_diff):
+    if math.isnan(mean_len) or math.isnan(sym_diff):
+        return float("nan")
+    return (mean_len + (sym_diff / 2)) - 1
 
 def calculate_index(file_path: str, n_samples: int, size: int, seed: int = None) -> float:
     """
@@ -160,8 +175,8 @@ def calculate_index(file_path: str, n_samples: int, size: int, seed: int = None)
     sym_diff = symmetric_difference(samples)
 
     # Step 5: Compute the final index
-    v_exp_index = (v_exp_mean_len + (v_exp_sym_diff / 2)) - 1
-    n_exp_index = (n_exp_mean_len + (n_exp_sym_diff / 2)) - 1
-    a_exp_index = (a_exp_mean_len + (a_exp_sym_diff / 2)) - 1
-    index = (mean_len + (sym_diff / 2)) - 1
+    v_exp_index = _safe_index(v_exp_mean_len, v_exp_sym_diff)
+    n_exp_index = _safe_index(n_exp_mean_len, n_exp_sym_diff)
+    a_exp_index = _safe_index(a_exp_mean_len, a_exp_sym_diff)
+    index       = _safe_index(mean_len, sym_diff)
     return index, v_exp_index, n_exp_index, a_exp_index
